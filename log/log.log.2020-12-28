@@ -1,0 +1,774 @@
+2020-12-28 13:36:36,422 - DEBUG - class labels must be entered one of (phish, legitimate)
+2020-12-28 13:36:36,422 - DEBUG - class labels must be entered one of (phish, legitimate)
+2020-12-28 13:36:36,426 - INFO - Domain Parse process is done 0 unique URLs are parsed
+2020-12-28 13:36:36,426 - INFO - Domain Parse process is done 0 unique URLs are parsed
+2020-12-28 13:36:36,481 - INFO - rule_extraction.extraction() is running
+2020-12-28 13:36:36,481 - INFO - rule_extraction.extraction() is running
+2020-12-28 13:43:10,881 - DEBUG - class labels must be entered one of (phish, legitimate)
+2020-12-28 13:43:10,881 - DEBUG - class labels must be entered one of (phish, legitimate)
+2020-12-28 13:43:10,883 - INFO - Domain Parse process is done 0 unique URLs are parsed
+2020-12-28 13:43:10,883 - INFO - Domain Parse process is done 0 unique URLs are parsed
+2020-12-28 13:43:10,961 - INFO - rule_extraction.extraction() is running
+2020-12-28 13:43:10,961 - INFO - rule_extraction.extraction() is running
+2020-12-28 13:43:26,347 - DEBUG - class labels must be entered one of (phish, legitimate)
+2020-12-28 13:43:26,347 - DEBUG - class labels must be entered one of (phish, legitimate)
+2020-12-28 13:43:26,351 - INFO - Domain Parse process is done 0 unique URLs are parsed
+2020-12-28 13:43:26,351 - INFO - Domain Parse process is done 0 unique URLs are parsed
+2020-12-28 13:43:26,417 - INFO - rule_extraction.extraction() is running
+2020-12-28 13:43:26,417 - INFO - rule_extraction.extraction() is running
+2020-12-28 13:43:54,121 - DEBUG - class labels must be entered one of (phish, legitimate)
+2020-12-28 13:43:54,121 - DEBUG - class labels must be entered one of (phish, legitimate)
+2020-12-28 13:43:54,123 - INFO - Domain Parse process is done 0 unique URLs are parsed
+2020-12-28 13:43:54,123 - INFO - Domain Parse process is done 0 unique URLs are parsed
+2020-12-28 13:43:54,144 - INFO - rule_extraction.extraction() is running
+2020-12-28 13:43:54,144 - INFO - rule_extraction.extraction() is running
+2020-12-28 13:45:59,808 - DEBUG - class labels must be entered one of (phish, legitimate)
+2020-12-28 13:45:59,808 - DEBUG - class labels must be entered one of (phish, legitimate)
+2020-12-28 13:45:59,813 - INFO - Domain Parse process is done 0 unique URLs are parsed
+2020-12-28 13:45:59,813 - INFO - Domain Parse process is done 0 unique URLs are parsed
+2020-12-28 13:45:59,865 - INFO - rule_extraction.extraction() is running
+2020-12-28 13:45:59,865 - INFO - rule_extraction.extraction() is running
+2020-12-28 13:45:59,941 - ERROR - Error Arff Header : Traceback (most recent call last):
+  File "C:\Users\mmukhtar\Documents\python\Semester 7\Kamsis\json2arff.py", line 20, in convert_for_train
+    features_keys_url = list(features[0]['url_features'].keys())
+IndexError: list index out of range
+
+2020-12-28 13:45:59,941 - ERROR - Error Arff Header : Traceback (most recent call last):
+  File "C:\Users\mmukhtar\Documents\python\Semester 7\Kamsis\json2arff.py", line 20, in convert_for_train
+    features_keys_url = list(features[0]['url_features'].keys())
+IndexError: list index out of range
+
+2020-12-28 13:46:27,648 - DEBUG - class labels must be entered one of (phish, legitimate)
+2020-12-28 13:46:27,648 - DEBUG - class labels must be entered one of (phish, legitimate)
+2020-12-28 13:46:27,650 - INFO - Domain Parse process is done 0 unique URLs are parsed
+2020-12-28 13:46:27,650 - INFO - Domain Parse process is done 0 unique URLs are parsed
+2020-12-28 13:46:27,669 - INFO - rule_extraction.extraction() is running
+2020-12-28 13:46:27,669 - INFO - rule_extraction.extraction() is running
+2020-12-28 13:46:27,720 - ERROR - Error Arff Header : Traceback (most recent call last):
+  File "C:\Users\mmukhtar\Documents\python\Semester 7\Kamsis\json2arff.py", line 20, in convert_for_train
+    features_keys_url = list(features[0]['url_features'].keys())
+IndexError: list index out of range
+
+2020-12-28 13:46:27,720 - ERROR - Error Arff Header : Traceback (most recent call last):
+  File "C:\Users\mmukhtar\Documents\python\Semester 7\Kamsis\json2arff.py", line 20, in convert_for_train
+    features_keys_url = list(features[0]['url_features'].keys())
+IndexError: list index out of range
+
+2020-12-28 13:46:45,560 - ERROR - Error : Traceback (most recent call last):
+  File "<ipython-input-4-dfc01a92814f>", line 57, in preparing_train_data
+    train_dataset, train_meta = arff.loadarff(open("{0}{1}".format(self.path_output_arff, file_name), "r"))
+  File "C:\Users\mmukhtar\Anaconda3\lib\site-packages\scipy\io\arff\arffread.py", line 802, in loadarff
+    return _loadarff(ofile)
+  File "C:\Users\mmukhtar\Anaconda3\lib\site-packages\scipy\io\arff\arffread.py", line 811, in _loadarff
+    rel, attr = read_header(ofile)
+  File "C:\Users\mmukhtar\Anaconda3\lib\site-packages\scipy\io\arff\arffread.py", line 622, in read_header
+    i = next(ofile)
+StopIteration
+
+2020-12-28 13:46:45,560 - ERROR - Error : Traceback (most recent call last):
+  File "<ipython-input-4-dfc01a92814f>", line 57, in preparing_train_data
+    train_dataset, train_meta = arff.loadarff(open("{0}{1}".format(self.path_output_arff, file_name), "r"))
+  File "C:\Users\mmukhtar\Anaconda3\lib\site-packages\scipy\io\arff\arffread.py", line 802, in loadarff
+    return _loadarff(ofile)
+  File "C:\Users\mmukhtar\Anaconda3\lib\site-packages\scipy\io\arff\arffread.py", line 811, in _loadarff
+    rel, attr = read_header(ofile)
+  File "C:\Users\mmukhtar\Anaconda3\lib\site-packages\scipy\io\arff\arffread.py", line 622, in read_header
+    i = next(ofile)
+StopIteration
+
+2020-12-28 13:47:34,767 - ERROR - Error : Traceback (most recent call last):
+  File "<ipython-input-6-2b74d049dd8b>", line 57, in preparing_train_data
+    train_dataset, train_meta = arff.loadarff(open("{0}{1}".format(self.path_output_arff, file_name), "r"))
+  File "C:\Users\mmukhtar\Anaconda3\lib\site-packages\scipy\io\arff\arffread.py", line 802, in loadarff
+    return _loadarff(ofile)
+  File "C:\Users\mmukhtar\Anaconda3\lib\site-packages\scipy\io\arff\arffread.py", line 811, in _loadarff
+    rel, attr = read_header(ofile)
+  File "C:\Users\mmukhtar\Anaconda3\lib\site-packages\scipy\io\arff\arffread.py", line 622, in read_header
+    i = next(ofile)
+StopIteration
+
+2020-12-28 13:47:34,767 - ERROR - Error : Traceback (most recent call last):
+  File "<ipython-input-6-2b74d049dd8b>", line 57, in preparing_train_data
+    train_dataset, train_meta = arff.loadarff(open("{0}{1}".format(self.path_output_arff, file_name), "r"))
+  File "C:\Users\mmukhtar\Anaconda3\lib\site-packages\scipy\io\arff\arffread.py", line 802, in loadarff
+    return _loadarff(ofile)
+  File "C:\Users\mmukhtar\Anaconda3\lib\site-packages\scipy\io\arff\arffread.py", line 811, in _loadarff
+    rel, attr = read_header(ofile)
+  File "C:\Users\mmukhtar\Anaconda3\lib\site-packages\scipy\io\arff\arffread.py", line 622, in read_header
+    i = next(ofile)
+StopIteration
+
+2020-12-28 19:29:25,559 - ERROR - Error : Traceback (most recent call last):
+  File "C:\Users\mmukhtar\Documents\python\Semester 7\Kamsis\word_with_nlp.py", line 72, in parse
+    elif self.__is_similar_to_any_element(word, self.allbrand) != 0:
+  File "C:\Users\mmukhtar\Documents\python\Semester 7\Kamsis\word_with_nlp.py", line 44, in __is_similar_to_any_element
+    if edit_distance(word, l) < 2:
+NameError: name 'edit_distance' is not defined
+
+2020-12-28 19:29:25,559 - ERROR - Error : Traceback (most recent call last):
+  File "C:\Users\mmukhtar\Documents\python\Semester 7\Kamsis\word_with_nlp.py", line 72, in parse
+    elif self.__is_similar_to_any_element(word, self.allbrand) != 0:
+  File "C:\Users\mmukhtar\Documents\python\Semester 7\Kamsis\word_with_nlp.py", line 44, in __is_similar_to_any_element
+    if edit_distance(word, l) < 2:
+NameError: name 'edit_distance' is not defined
+
+2020-12-28 19:30:17,452 - ERROR - Error : Traceback (most recent call last):
+  File "C:\Users\mmukhtar\Documents\python\Semester 7\Kamsis\word_with_nlp.py", line 72, in parse
+  File "C:\Users\mmukhtar\Documents\python\Semester 7\Kamsis\word_with_nlp.py", line 44, in __is_similar_to_any_element
+    if edit_distance(word, l) < 2:
+NameError: name 'edit_distance' is not defined
+
+2020-12-28 19:30:17,452 - ERROR - Error : Traceback (most recent call last):
+  File "C:\Users\mmukhtar\Documents\python\Semester 7\Kamsis\word_with_nlp.py", line 72, in parse
+  File "C:\Users\mmukhtar\Documents\python\Semester 7\Kamsis\word_with_nlp.py", line 44, in __is_similar_to_any_element
+    if edit_distance(word, l) < 2:
+NameError: name 'edit_distance' is not defined
+
+2020-12-28 19:30:32,081 - ERROR - Error : Traceback (most recent call last):
+  File "C:\Users\mmukhtar\Documents\python\Semester 7\Kamsis\word_with_nlp.py", line 73, in parse
+    elif self.__is_similar_to_any_element(word, self.allbrand) != 0:
+  File "C:\Users\mmukhtar\Documents\python\Semester 7\Kamsis\word_with_nlp.py", line 44, in __is_similar_to_any_element
+    if edit_distance(word, l) < 2:
+NameError: name 'edit_distance' is not defined
+
+2020-12-28 19:30:32,081 - ERROR - Error : Traceback (most recent call last):
+  File "C:\Users\mmukhtar\Documents\python\Semester 7\Kamsis\word_with_nlp.py", line 73, in parse
+    elif self.__is_similar_to_any_element(word, self.allbrand) != 0:
+  File "C:\Users\mmukhtar\Documents\python\Semester 7\Kamsis\word_with_nlp.py", line 44, in __is_similar_to_any_element
+    if edit_distance(word, l) < 2:
+NameError: name 'edit_distance' is not defined
+
+2020-12-28 19:31:48,772 - ERROR - Error : Traceback (most recent call last):
+  File "C:\Users\mmukhtar\Documents\python\Semester 7\Kamsis\word_with_nlp.py", line 73, in parse
+    elif self.__is_similar_to_any_element(word, self.allbrand) != 0:
+  File "C:\Users\mmukhtar\Documents\python\Semester 7\Kamsis\word_with_nlp.py", line 44, in __is_similar_to_any_element
+    if edit_distance(word, l) < 2:
+NameError: name 'edit_distance' is not defined
+
+2020-12-28 19:31:48,772 - ERROR - Error : Traceback (most recent call last):
+  File "C:\Users\mmukhtar\Documents\python\Semester 7\Kamsis\word_with_nlp.py", line 73, in parse
+    elif self.__is_similar_to_any_element(word, self.allbrand) != 0:
+  File "C:\Users\mmukhtar\Documents\python\Semester 7\Kamsis\word_with_nlp.py", line 44, in __is_similar_to_any_element
+    if edit_distance(word, l) < 2:
+NameError: name 'edit_distance' is not defined
+
+2020-12-28 19:32:13,362 - ERROR - Error : Traceback (most recent call last):
+  File "C:\Users\mmukhtar\Documents\python\Semester 7\Kamsis\word_with_nlp.py", line 73, in parse
+    elif self.__is_similar_to_any_element(word, self.allbrand) != 0:
+  File "C:\Users\mmukhtar\Documents\python\Semester 7\Kamsis\word_with_nlp.py", line 44, in __is_similar_to_any_element
+    if edit_distance(word, l) < 2:
+NameError: name 'edit_distance' is not defined
+
+2020-12-28 19:32:13,362 - ERROR - Error : Traceback (most recent call last):
+  File "C:\Users\mmukhtar\Documents\python\Semester 7\Kamsis\word_with_nlp.py", line 73, in parse
+    elif self.__is_similar_to_any_element(word, self.allbrand) != 0:
+  File "C:\Users\mmukhtar\Documents\python\Semester 7\Kamsis\word_with_nlp.py", line 44, in __is_similar_to_any_element
+    if edit_distance(word, l) < 2:
+NameError: name 'edit_distance' is not defined
+
+2020-12-28 19:32:48,831 - ERROR - Error : Traceback (most recent call last):
+  File "C:\Users\mmukhtar\Documents\python\Semester 7\Kamsis\word_with_nlp.py", line 73, in parse
+    elif self.__is_similar_to_any_element(word, self.allbrand) != 0:
+  File "C:\Users\mmukhtar\Documents\python\Semester 7\Kamsis\word_with_nlp.py", line 44, in __is_similar_to_any_element
+    if edit_distance(word, l) < 2:
+NameError: name 'edit_distance' is not defined
+
+2020-12-28 19:32:48,831 - ERROR - Error : Traceback (most recent call last):
+  File "C:\Users\mmukhtar\Documents\python\Semester 7\Kamsis\word_with_nlp.py", line 73, in parse
+    elif self.__is_similar_to_any_element(word, self.allbrand) != 0:
+  File "C:\Users\mmukhtar\Documents\python\Semester 7\Kamsis\word_with_nlp.py", line 44, in __is_similar_to_any_element
+    if edit_distance(word, l) < 2:
+NameError: name 'edit_distance' is not defined
+
+2020-12-28 19:33:23,490 - ERROR - Error : Traceback (most recent call last):
+  File "C:\Users\mmukhtar\Documents\python\Semester 7\Kamsis\word_with_nlp.py", line 73, in parse
+    elif self.__is_similar_to_any_element(word, self.allbrand) != 0:
+  File "C:\Users\mmukhtar\Documents\python\Semester 7\Kamsis\word_with_nlp.py", line 44, in __is_similar_to_any_element
+    if edit_distance(word, l) < 2:
+NameError: name 'edit_distance' is not defined
+
+2020-12-28 19:33:23,490 - ERROR - Error : Traceback (most recent call last):
+  File "C:\Users\mmukhtar\Documents\python\Semester 7\Kamsis\word_with_nlp.py", line 73, in parse
+    elif self.__is_similar_to_any_element(word, self.allbrand) != 0:
+  File "C:\Users\mmukhtar\Documents\python\Semester 7\Kamsis\word_with_nlp.py", line 44, in __is_similar_to_any_element
+    if edit_distance(word, l) < 2:
+NameError: name 'edit_distance' is not defined
+
+2020-12-28 19:33:35,311 - ERROR - Error : Traceback (most recent call last):
+  File "C:\Users\mmukhtar\Documents\python\Semester 7\Kamsis\word_with_nlp.py", line 73, in parse
+    elif self.__is_similar_to_any_element(word, self.allbrand) != 0:
+  File "C:\Users\mmukhtar\Documents\python\Semester 7\Kamsis\word_with_nlp.py", line 44, in __is_similar_to_any_element
+    if edit_distance(word, l) < 2:
+NameError: name 'edit_distance' is not defined
+
+2020-12-28 19:33:35,311 - ERROR - Error : Traceback (most recent call last):
+  File "C:\Users\mmukhtar\Documents\python\Semester 7\Kamsis\word_with_nlp.py", line 73, in parse
+    elif self.__is_similar_to_any_element(word, self.allbrand) != 0:
+  File "C:\Users\mmukhtar\Documents\python\Semester 7\Kamsis\word_with_nlp.py", line 44, in __is_similar_to_any_element
+    if edit_distance(word, l) < 2:
+NameError: name 'edit_distance' is not defined
+
+2020-12-28 19:34:48,941 - ERROR - Error : Traceback (most recent call last):
+  File "C:\Users\mmukhtar\Documents\python\Semester 7\Kamsis\word_with_nlp.py", line 73, in parse
+    elif self.__is_similar_to_any_element(word, self.allbrand) != 0:
+  File "C:\Users\mmukhtar\Documents\python\Semester 7\Kamsis\word_with_nlp.py", line 44, in __is_similar_to_any_element
+    if edit_distance(word, l) < 2:
+NameError: name 'edit_distance' is not defined
+
+2020-12-28 19:34:48,941 - ERROR - Error : Traceback (most recent call last):
+  File "C:\Users\mmukhtar\Documents\python\Semester 7\Kamsis\word_with_nlp.py", line 73, in parse
+    elif self.__is_similar_to_any_element(word, self.allbrand) != 0:
+  File "C:\Users\mmukhtar\Documents\python\Semester 7\Kamsis\word_with_nlp.py", line 44, in __is_similar_to_any_element
+    if edit_distance(word, l) < 2:
+NameError: name 'edit_distance' is not defined
+
+2020-12-28 19:35:14,234 - ERROR - Error : Traceback (most recent call last):
+  File "C:\Users\mmukhtar\Documents\python\Semester 7\Kamsis\word_with_nlp.py", line 73, in parse
+    elif self.__is_similar_to_any_element(word, self.allbrand) != 0:
+  File "C:\Users\mmukhtar\Documents\python\Semester 7\Kamsis\word_with_nlp.py", line 44, in __is_similar_to_any_element
+    if edit_distance(word, l) < 2:
+NameError: name 'edit_distance' is not defined
+
+2020-12-28 19:35:14,234 - ERROR - Error : Traceback (most recent call last):
+  File "C:\Users\mmukhtar\Documents\python\Semester 7\Kamsis\word_with_nlp.py", line 73, in parse
+    elif self.__is_similar_to_any_element(word, self.allbrand) != 0:
+  File "C:\Users\mmukhtar\Documents\python\Semester 7\Kamsis\word_with_nlp.py", line 44, in __is_similar_to_any_element
+    if edit_distance(word, l) < 2:
+NameError: name 'edit_distance' is not defined
+
+2020-12-28 19:35:52,664 - ERROR - Error : Traceback (most recent call last):
+  File "C:\Users\mmukhtar\Documents\python\Semester 7\Kamsis\word_with_nlp.py", line 73, in parse
+    elif self.__is_similar_to_any_element(word, self.allbrand) != 0:
+  File "C:\Users\mmukhtar\Documents\python\Semester 7\Kamsis\word_with_nlp.py", line 44, in __is_similar_to_any_element
+    if edit_distance(word, l) < 2:
+NameError: name 'edit_distance' is not defined
+
+2020-12-28 19:35:52,664 - ERROR - Error : Traceback (most recent call last):
+  File "C:\Users\mmukhtar\Documents\python\Semester 7\Kamsis\word_with_nlp.py", line 73, in parse
+    elif self.__is_similar_to_any_element(word, self.allbrand) != 0:
+  File "C:\Users\mmukhtar\Documents\python\Semester 7\Kamsis\word_with_nlp.py", line 44, in __is_similar_to_any_element
+    if edit_distance(word, l) < 2:
+NameError: name 'edit_distance' is not defined
+
+2020-12-28 19:36:22,823 - ERROR - Error : Traceback (most recent call last):
+  File "C:\Users\mmukhtar\Documents\python\Semester 7\Kamsis\word_with_nlp.py", line 73, in parse
+    elif self.__is_similar_to_any_element(word, self.allbrand) != 0:
+  File "C:\Users\mmukhtar\Documents\python\Semester 7\Kamsis\word_with_nlp.py", line 44, in __is_similar_to_any_element
+    if edit_distance(word, l) < 2:
+NameError: name 'edit_distance' is not defined
+
+2020-12-28 19:36:22,823 - ERROR - Error : Traceback (most recent call last):
+  File "C:\Users\mmukhtar\Documents\python\Semester 7\Kamsis\word_with_nlp.py", line 73, in parse
+    elif self.__is_similar_to_any_element(word, self.allbrand) != 0:
+  File "C:\Users\mmukhtar\Documents\python\Semester 7\Kamsis\word_with_nlp.py", line 44, in __is_similar_to_any_element
+    if edit_distance(word, l) < 2:
+NameError: name 'edit_distance' is not defined
+
+2020-12-28 19:36:41,078 - ERROR - Error : Traceback (most recent call last):
+  File "C:\Users\mmukhtar\Documents\python\Semester 7\Kamsis\word_with_nlp.py", line 73, in parse
+    elif self.__is_similar_to_any_element(word, self.allbrand) != 0:
+  File "C:\Users\mmukhtar\Documents\python\Semester 7\Kamsis\word_with_nlp.py", line 44, in __is_similar_to_any_element
+    if edit_distance(word, l) < 2:
+NameError: name 'edit_distance' is not defined
+
+2020-12-28 19:36:41,078 - ERROR - Error : Traceback (most recent call last):
+  File "C:\Users\mmukhtar\Documents\python\Semester 7\Kamsis\word_with_nlp.py", line 73, in parse
+    elif self.__is_similar_to_any_element(word, self.allbrand) != 0:
+  File "C:\Users\mmukhtar\Documents\python\Semester 7\Kamsis\word_with_nlp.py", line 44, in __is_similar_to_any_element
+    if edit_distance(word, l) < 2:
+NameError: name 'edit_distance' is not defined
+
+2020-12-28 19:37:42,155 - ERROR - Error : Traceback (most recent call last):
+  File "C:\Users\mmukhtar\Documents\python\Semester 7\Kamsis\word_with_nlp.py", line 73, in parse
+    elif self.__is_similar_to_any_element(word, self.allbrand) != 0:
+  File "C:\Users\mmukhtar\Documents\python\Semester 7\Kamsis\word_with_nlp.py", line 44, in __is_similar_to_any_element
+    if self.edit_distance(word, l) < 2:
+NameError: name 'edit_distance' is not defined
+
+2020-12-28 19:37:42,155 - ERROR - Error : Traceback (most recent call last):
+  File "C:\Users\mmukhtar\Documents\python\Semester 7\Kamsis\word_with_nlp.py", line 73, in parse
+    elif self.__is_similar_to_any_element(word, self.allbrand) != 0:
+  File "C:\Users\mmukhtar\Documents\python\Semester 7\Kamsis\word_with_nlp.py", line 44, in __is_similar_to_any_element
+    if self.edit_distance(word, l) < 2:
+NameError: name 'edit_distance' is not defined
+
+2020-12-28 19:38:01,306 - ERROR - Error : Traceback (most recent call last):
+  File "C:\Users\mmukhtar\Documents\python\Semester 7\Kamsis\word_with_nlp.py", line 73, in parse
+    elif self.__is_similar_to_any_element(word, self.allbrand) != 0:
+  File "C:\Users\mmukhtar\Documents\python\Semester 7\Kamsis\word_with_nlp.py", line 44, in __is_similar_to_any_element
+    if self.edit_distance(word, l) < 2:
+TypeError: edit_distance() takes 2 positional arguments but 3 were given
+
+2020-12-28 19:38:01,306 - ERROR - Error : Traceback (most recent call last):
+  File "C:\Users\mmukhtar\Documents\python\Semester 7\Kamsis\word_with_nlp.py", line 73, in parse
+    elif self.__is_similar_to_any_element(word, self.allbrand) != 0:
+  File "C:\Users\mmukhtar\Documents\python\Semester 7\Kamsis\word_with_nlp.py", line 44, in __is_similar_to_any_element
+    if self.edit_distance(word, l) < 2:
+TypeError: edit_distance() takes 2 positional arguments but 3 were given
+
+2020-12-28 19:38:55,512 - ERROR - Error : Traceback (most recent call last):
+  File "C:\Users\mmukhtar\Documents\python\Semester 7\Kamsis\word_with_nlp.py", line 73, in parse
+    elif self.__is_similar_to_any_element(word, self.allbrand) != 0:
+  File "C:\Users\mmukhtar\Documents\python\Semester 7\Kamsis\word_with_nlp.py", line 44, in __is_similar_to_any_element
+    if (self.edit_distance(word, l) < 2):
+TypeError: edit_distance() takes 2 positional arguments but 3 were given
+
+2020-12-28 19:38:55,512 - ERROR - Error : Traceback (most recent call last):
+  File "C:\Users\mmukhtar\Documents\python\Semester 7\Kamsis\word_with_nlp.py", line 73, in parse
+    elif self.__is_similar_to_any_element(word, self.allbrand) != 0:
+  File "C:\Users\mmukhtar\Documents\python\Semester 7\Kamsis\word_with_nlp.py", line 44, in __is_similar_to_any_element
+    if (self.edit_distance(word, l) < 2):
+TypeError: edit_distance() takes 2 positional arguments but 3 were given
+
+2020-12-28 19:39:26,742 - ERROR - Error : Traceback (most recent call last):
+  File "C:\Users\mmukhtar\Documents\python\Semester 7\Kamsis\word_with_nlp.py", line 73, in parse
+    elif self.__is_similar_to_any_element(word, self.allbrand) != 0:
+  File "C:\Users\mmukhtar\Documents\python\Semester 7\Kamsis\word_with_nlp.py", line 44, in __is_similar_to_any_element
+    if ((self.edit_distance(word, l)) < 2):
+TypeError: edit_distance() takes 2 positional arguments but 3 were given
+
+2020-12-28 19:39:26,742 - ERROR - Error : Traceback (most recent call last):
+  File "C:\Users\mmukhtar\Documents\python\Semester 7\Kamsis\word_with_nlp.py", line 73, in parse
+    elif self.__is_similar_to_any_element(word, self.allbrand) != 0:
+  File "C:\Users\mmukhtar\Documents\python\Semester 7\Kamsis\word_with_nlp.py", line 44, in __is_similar_to_any_element
+    if ((self.edit_distance(word, l)) < 2):
+TypeError: edit_distance() takes 2 positional arguments but 3 were given
+
+2020-12-28 19:39:37,004 - ERROR - Error : Traceback (most recent call last):
+  File "C:\Users\mmukhtar\Documents\python\Semester 7\Kamsis\word_with_nlp.py", line 73, in parse
+    elif self.__is_similar_to_any_element(word, self.allbrand) != 0:
+  File "C:\Users\mmukhtar\Documents\python\Semester 7\Kamsis\word_with_nlp.py", line 44, in __is_similar_to_any_element
+    if ((self.edit_distance(word, l)) < 2):
+TypeError: edit_distance() takes 2 positional arguments but 3 were given
+
+2020-12-28 19:39:37,004 - ERROR - Error : Traceback (most recent call last):
+  File "C:\Users\mmukhtar\Documents\python\Semester 7\Kamsis\word_with_nlp.py", line 73, in parse
+    elif self.__is_similar_to_any_element(word, self.allbrand) != 0:
+  File "C:\Users\mmukhtar\Documents\python\Semester 7\Kamsis\word_with_nlp.py", line 44, in __is_similar_to_any_element
+    if ((self.edit_distance(word, l)) < 2):
+TypeError: edit_distance() takes 2 positional arguments but 3 were given
+
+2020-12-28 19:44:00,287 - ERROR - Error : Traceback (most recent call last):
+  File "C:\Users\mmukhtar\Documents\python\Semester 7\Kamsis\word_with_nlp.py", line 73, in parse
+  File "C:\Users\mmukhtar\Documents\python\Semester 7\Kamsis\word_with_nlp.py", line 44, in __is_similar_to_any_element
+    for l in list:
+TypeError: edit_distance() takes 2 positional arguments but 3 were given
+
+2020-12-28 19:44:00,287 - ERROR - Error : Traceback (most recent call last):
+  File "C:\Users\mmukhtar\Documents\python\Semester 7\Kamsis\word_with_nlp.py", line 73, in parse
+  File "C:\Users\mmukhtar\Documents\python\Semester 7\Kamsis\word_with_nlp.py", line 44, in __is_similar_to_any_element
+    for l in list:
+TypeError: edit_distance() takes 2 positional arguments but 3 were given
+
+2020-12-28 19:44:13,802 - ERROR - Error : Traceback (most recent call last):
+  File "C:\Users\mmukhtar\Documents\python\Semester 7\Kamsis\word_with_nlp.py", line 74, in parse
+    elif self.__is_similar_to_any_element(word, self.allbrand) != 0:
+  File "C:\Users\mmukhtar\Documents\python\Semester 7\Kamsis\word_with_nlp.py", line 45, in __is_similar_to_any_element
+    if (edit_distance(word, l) < 2):
+  File "C:\Users\mmukhtar\Documents\python\Semester 7\Kamsis\editdistance.py", line 2, in edit_distance
+    prefix_matrix = np.zeros((len(s) + 1, len(t) + 1))
+NameError: name 'np' is not defined
+
+2020-12-28 19:44:13,802 - ERROR - Error : Traceback (most recent call last):
+  File "C:\Users\mmukhtar\Documents\python\Semester 7\Kamsis\word_with_nlp.py", line 74, in parse
+    elif self.__is_similar_to_any_element(word, self.allbrand) != 0:
+  File "C:\Users\mmukhtar\Documents\python\Semester 7\Kamsis\word_with_nlp.py", line 45, in __is_similar_to_any_element
+    if (edit_distance(word, l) < 2):
+  File "C:\Users\mmukhtar\Documents\python\Semester 7\Kamsis\editdistance.py", line 2, in edit_distance
+    prefix_matrix = np.zeros((len(s) + 1, len(t) + 1))
+NameError: name 'np' is not defined
+
+2020-12-28 19:49:37,569 - INFO - rule_extraction.extraction() is running
+2020-12-28 19:49:37,569 - INFO - rule_extraction.extraction() is running
+2020-12-28 19:49:37,592 - ERROR - Error : Traceback (most recent call last):
+  File "<ipython-input-3-849cbd485a9c>", line 29, in extraction
+    nlp_info, url_features = self.url_rules_o.rules_main(info['domain'],
+TypeError: string indices must be integers
+
+2020-12-28 19:49:37,592 - ERROR - Error : Traceback (most recent call last):
+  File "<ipython-input-3-849cbd485a9c>", line 29, in extraction
+    nlp_info, url_features = self.url_rules_o.rules_main(info['domain'],
+TypeError: string indices must be integers
+
+2020-12-28 19:58:57,389 - INFO - rule_extraction.extraction() is running
+2020-12-28 19:58:57,389 - INFO - rule_extraction.extraction() is running
+2020-12-28 19:58:57,397 - ERROR - Error : Traceback (most recent call last):
+  File "<ipython-input-12-849cbd485a9c>", line 29, in extraction
+    nlp_info, url_features = self.url_rules_o.rules_main(info['domain'],
+TypeError: string indices must be integers
+
+2020-12-28 19:58:57,397 - ERROR - Error : Traceback (most recent call last):
+  File "<ipython-input-12-849cbd485a9c>", line 29, in extraction
+    nlp_info, url_features = self.url_rules_o.rules_main(info['domain'],
+TypeError: string indices must be integers
+
+2020-12-28 22:38:55,423 - INFO - rule_extraction.extraction() is running
+2020-12-28 22:38:55,423 - INFO - rule_extraction.extraction() is running
+2020-12-28 22:38:55,430 - ERROR - Error : Traceback (most recent call last):
+  File "<ipython-input-15-d961b401c463>", line 29, in extraction
+    nlp_info, url_features = self.url_rules_o.rules_main(info['domain'],
+TypeError: string indices must be integers
+
+2020-12-28 22:38:55,430 - ERROR - Error : Traceback (most recent call last):
+  File "<ipython-input-15-d961b401c463>", line 29, in extraction
+    nlp_info, url_features = self.url_rules_o.rules_main(info['domain'],
+TypeError: string indices must be integers
+
+2020-12-28 22:39:13,991 - INFO - rule_extraction.extraction() is running
+2020-12-28 22:39:13,991 - INFO - rule_extraction.extraction() is running
+2020-12-28 22:39:13,998 - ERROR - Error : Traceback (most recent call last):
+  File "<ipython-input-17-97bb6ea7ac2f>", line 29, in extraction
+    nlp_info, url_features = self.url_rules_o.rules_main(info['domain'],
+TypeError: string indices must be integers
+
+2020-12-28 22:39:13,998 - ERROR - Error : Traceback (most recent call last):
+  File "<ipython-input-17-97bb6ea7ac2f>", line 29, in extraction
+    nlp_info, url_features = self.url_rules_o.rules_main(info['domain'],
+TypeError: string indices must be integers
+
+2020-12-28 22:39:33,911 - INFO - rule_extraction.extraction() is running
+2020-12-28 22:39:33,911 - INFO - rule_extraction.extraction() is running
+2020-12-28 22:39:33,921 - ERROR - Error : Traceback (most recent call last):
+  File "<ipython-input-19-55a818ca770f>", line 29, in extraction
+    nlp_info, url_features = self.url_rules_o.rules_main(info['domain'],
+TypeError: string indices must be integers
+
+2020-12-28 22:39:33,921 - ERROR - Error : Traceback (most recent call last):
+  File "<ipython-input-19-55a818ca770f>", line 29, in extraction
+    nlp_info, url_features = self.url_rules_o.rules_main(info['domain'],
+TypeError: string indices must be integers
+
+2020-12-28 22:39:47,227 - INFO - rule_extraction.extraction() is running
+2020-12-28 22:39:47,227 - INFO - rule_extraction.extraction() is running
+2020-12-28 22:39:47,230 - ERROR - Error : Traceback (most recent call last):
+  File "<ipython-input-21-1ad87fd72ba5>", line 23, in extraction
+    print(line)
+UnboundLocalError: local variable 'line' referenced before assignment
+
+2020-12-28 22:39:47,230 - ERROR - Error : Traceback (most recent call last):
+  File "<ipython-input-21-1ad87fd72ba5>", line 23, in extraction
+    print(line)
+UnboundLocalError: local variable 'line' referenced before assignment
+
+2020-12-28 22:39:52,979 - INFO - rule_extraction.extraction() is running
+2020-12-28 22:39:52,979 - INFO - rule_extraction.extraction() is running
+2020-12-28 22:39:52,982 - ERROR - Error : Traceback (most recent call last):
+  File "<ipython-input-23-1ad87fd72ba5>", line 23, in extraction
+    print(line)
+UnboundLocalError: local variable 'line' referenced before assignment
+
+2020-12-28 22:39:52,982 - ERROR - Error : Traceback (most recent call last):
+  File "<ipython-input-23-1ad87fd72ba5>", line 23, in extraction
+    print(line)
+UnboundLocalError: local variable 'line' referenced before assignment
+
+2020-12-28 22:40:48,590 - INFO - rule_extraction.extraction() is running
+2020-12-28 22:40:48,590 - INFO - rule_extraction.extraction() is running
+2020-12-28 22:40:48,592 - ERROR - Error : Traceback (most recent call last):
+  File "<ipython-input-23-1ad87fd72ba5>", line 23, in extraction
+    print(line)
+UnboundLocalError: local variable 'line' referenced before assignment
+
+2020-12-28 22:40:48,592 - ERROR - Error : Traceback (most recent call last):
+  File "<ipython-input-23-1ad87fd72ba5>", line 23, in extraction
+    print(line)
+UnboundLocalError: local variable 'line' referenced before assignment
+
+2020-12-28 22:40:59,353 - INFO - rule_extraction.extraction() is running
+2020-12-28 22:40:59,353 - INFO - rule_extraction.extraction() is running
+2020-12-28 22:40:59,359 - ERROR - Error : Traceback (most recent call last):
+  File "<ipython-input-29-df1564f1478b>", line 28, in extraction
+    nlp_info, url_features = self.url_rules_o.rules_main(info['domain'],
+TypeError: string indices must be integers
+
+2020-12-28 22:40:59,359 - ERROR - Error : Traceback (most recent call last):
+  File "<ipython-input-29-df1564f1478b>", line 28, in extraction
+    nlp_info, url_features = self.url_rules_o.rules_main(info['domain'],
+TypeError: string indices must be integers
+
+2020-12-28 22:41:47,814 - INFO - rule_extraction.extraction() is running
+2020-12-28 22:41:47,814 - INFO - rule_extraction.extraction() is running
+2020-12-28 22:41:47,821 - ERROR - Error : Traceback (most recent call last):
+  File "<ipython-input-31-8b4d3a9964d4>", line 28, in extraction
+    nlp_info, url_features = self.url_rules_o.rules_main(info['domain'],
+TypeError: string indices must be integers
+
+2020-12-28 22:41:47,821 - ERROR - Error : Traceback (most recent call last):
+  File "<ipython-input-31-8b4d3a9964d4>", line 28, in extraction
+    nlp_info, url_features = self.url_rules_o.rules_main(info['domain'],
+TypeError: string indices must be integers
+
+2020-12-28 22:49:03,599 - INFO - rule_extraction.extraction() is running
+2020-12-28 22:49:03,599 - INFO - rule_extraction.extraction() is running
+2020-12-28 22:49:03,609 - ERROR - Error : Traceback (most recent call last):
+  File "<ipython-input-31-8b4d3a9964d4>", line 28, in extraction
+    nlp_info, url_features = self.url_rules_o.rules_main(info['domain'],
+TypeError: string indices must be integers
+
+2020-12-28 22:49:03,609 - ERROR - Error : Traceback (most recent call last):
+  File "<ipython-input-31-8b4d3a9964d4>", line 28, in extraction
+    nlp_info, url_features = self.url_rules_o.rules_main(info['domain'],
+TypeError: string indices must be integers
+
+2020-12-28 22:52:25,626 - DEBUG - class labels must be entered one of (phish, legitimate)
+2020-12-28 22:52:25,626 - DEBUG - class labels must be entered one of (phish, legitimate)
+2020-12-28 22:52:25,627 - INFO - Domain Parse process is done 0 unique URLs are parsed
+2020-12-28 22:52:25,627 - INFO - Domain Parse process is done 0 unique URLs are parsed
+2020-12-28 22:52:36,581 - DEBUG - class labels must be entered one of (phish, legitimate)
+2020-12-28 22:52:36,581 - DEBUG - class labels must be entered one of (phish, legitimate)
+2020-12-28 22:52:36,583 - INFO - Domain Parse process is done 0 unique URLs are parsed
+2020-12-28 22:52:36,583 - INFO - Domain Parse process is done 0 unique URLs are parsed
+2020-12-28 22:52:51,916 - DEBUG - class labels must be entered one of (phish, legitimate)
+2020-12-28 22:52:51,916 - DEBUG - class labels must be entered one of (phish, legitimate)
+2020-12-28 22:52:51,918 - INFO - Domain Parse process is done 0 unique URLs are parsed
+2020-12-28 22:52:51,918 - INFO - Domain Parse process is done 0 unique URLs are parsed
+2020-12-28 22:52:51,957 - INFO - rule_extraction.extraction() is running
+2020-12-28 22:52:51,957 - INFO - rule_extraction.extraction() is running
+2020-12-28 22:52:52,004 - ERROR - Error Arff Header : Traceback (most recent call last):
+  File "C:\Users\mmukhtar\Documents\python\Semester 7\Kamsis\json2arff.py", line 20, in convert_for_train
+    features_keys_url = list(features[0]['url_features'].keys())
+IndexError: list index out of range
+
+2020-12-28 22:52:52,004 - ERROR - Error Arff Header : Traceback (most recent call last):
+  File "C:\Users\mmukhtar\Documents\python\Semester 7\Kamsis\json2arff.py", line 20, in convert_for_train
+    features_keys_url = list(features[0]['url_features'].keys())
+IndexError: list index out of range
+
+2020-12-28 22:55:36,443 - DEBUG - class labels must be entered one of (phish, legitimate)
+2020-12-28 22:55:36,443 - DEBUG - class labels must be entered one of (phish, legitimate)
+2020-12-28 22:55:36,445 - INFO - Domain Parse process is done 0 unique URLs are parsed
+2020-12-28 22:55:36,445 - INFO - Domain Parse process is done 0 unique URLs are parsed
+2020-12-28 22:55:36,481 - INFO - rule_extraction.extraction() is running
+2020-12-28 22:55:36,481 - INFO - rule_extraction.extraction() is running
+2020-12-28 22:55:36,532 - ERROR - Error Arff Header : Traceback (most recent call last):
+  File "C:\Users\mmukhtar\Documents\python\Semester 7\Kamsis\json2arff.py", line 20, in convert_for_train
+    features_keys_url = list(features[0]['url_features'].keys())
+IndexError: list index out of range
+
+2020-12-28 22:55:36,532 - ERROR - Error Arff Header : Traceback (most recent call last):
+  File "C:\Users\mmukhtar\Documents\python\Semester 7\Kamsis\json2arff.py", line 20, in convert_for_train
+    features_keys_url = list(features[0]['url_features'].keys())
+IndexError: list index out of range
+
+2020-12-28 22:56:11,358 - DEBUG - class labels must be entered one of (phish, legitimate)
+2020-12-28 22:56:11,358 - DEBUG - class labels must be entered one of (phish, legitimate)
+2020-12-28 22:56:11,359 - INFO - Domain Parse process is done 0 unique URLs are parsed
+2020-12-28 22:56:11,359 - INFO - Domain Parse process is done 0 unique URLs are parsed
+2020-12-28 22:56:11,378 - INFO - rule_extraction.extraction() is running
+2020-12-28 22:56:11,378 - INFO - rule_extraction.extraction() is running
+2020-12-28 22:56:11,464 - ERROR - Error Arff Header : Traceback (most recent call last):
+  File "C:\Users\mmukhtar\Documents\python\Semester 7\Kamsis\json2arff.py", line 20, in convert_for_train
+    features_keys_url = list(features[0]['url_features'].keys())
+IndexError: list index out of range
+
+2020-12-28 22:56:11,464 - ERROR - Error Arff Header : Traceback (most recent call last):
+  File "C:\Users\mmukhtar\Documents\python\Semester 7\Kamsis\json2arff.py", line 20, in convert_for_train
+    features_keys_url = list(features[0]['url_features'].keys())
+IndexError: list index out of range
+
+2020-12-28 23:03:27,785 - DEBUG - class labels must be entered one of (phish, legitimate)
+2020-12-28 23:03:27,785 - DEBUG - class labels must be entered one of (phish, legitimate)
+2020-12-28 23:03:27,787 - INFO - Domain Parse process is done 0 unique URLs are parsed
+2020-12-28 23:03:27,787 - INFO - Domain Parse process is done 0 unique URLs are parsed
+2020-12-28 23:03:27,805 - INFO - rule_extraction.extraction() is running
+2020-12-28 23:03:27,805 - INFO - rule_extraction.extraction() is running
+2020-12-28 23:03:27,900 - ERROR - Error Arff Header : Traceback (most recent call last):
+  File "C:\Users\mmukhtar\Documents\python\Semester 7\Kamsis\json2arff.py", line 20, in convert_for_train
+    features_keys_url = list(features[0]['url_features'].keys())
+IndexError: list index out of range
+
+2020-12-28 23:03:27,900 - ERROR - Error Arff Header : Traceback (most recent call last):
+  File "C:\Users\mmukhtar\Documents\python\Semester 7\Kamsis\json2arff.py", line 20, in convert_for_train
+    features_keys_url = list(features[0]['url_features'].keys())
+IndexError: list index out of range
+
+2020-12-28 23:03:37,861 - DEBUG - class labels must be entered one of (phish, legitimate)
+2020-12-28 23:03:37,861 - DEBUG - class labels must be entered one of (phish, legitimate)
+2020-12-28 23:03:37,863 - INFO - Domain Parse process is done 0 unique URLs are parsed
+2020-12-28 23:03:37,863 - INFO - Domain Parse process is done 0 unique URLs are parsed
+2020-12-28 23:03:37,885 - INFO - rule_extraction.extraction() is running
+2020-12-28 23:03:37,885 - INFO - rule_extraction.extraction() is running
+2020-12-28 23:03:37,947 - ERROR - Error Arff Header : Traceback (most recent call last):
+  File "C:\Users\mmukhtar\Documents\python\Semester 7\Kamsis\json2arff.py", line 20, in convert_for_train
+    features_keys_url = list(features[0]['url_features'].keys())
+IndexError: list index out of range
+
+2020-12-28 23:03:37,947 - ERROR - Error Arff Header : Traceback (most recent call last):
+  File "C:\Users\mmukhtar\Documents\python\Semester 7\Kamsis\json2arff.py", line 20, in convert_for_train
+    features_keys_url = list(features[0]['url_features'].keys())
+IndexError: list index out of range
+
+2020-12-28 23:10:50,958 - DEBUG - class labels must be entered one of (phish, legitimate)
+2020-12-28 23:10:50,958 - DEBUG - class labels must be entered one of (phish, legitimate)
+2020-12-28 23:10:50,959 - INFO - Domain Parse process is done 0 unique URLs are parsed
+2020-12-28 23:10:50,959 - INFO - Domain Parse process is done 0 unique URLs are parsed
+2020-12-28 23:10:50,980 - INFO - rule_extraction.extraction() is running
+2020-12-28 23:10:50,980 - INFO - rule_extraction.extraction() is running
+2020-12-28 23:10:51,042 - ERROR - Error Arff Header : Traceback (most recent call last):
+  File "C:\Users\mmukhtar\Documents\python\Semester 7\Kamsis\json2arff.py", line 20, in convert_for_train
+    features_keys_url = list(features[0]['url_features'].keys())
+IndexError: list index out of range
+
+2020-12-28 23:10:51,042 - ERROR - Error Arff Header : Traceback (most recent call last):
+  File "C:\Users\mmukhtar\Documents\python\Semester 7\Kamsis\json2arff.py", line 20, in convert_for_train
+    features_keys_url = list(features[0]['url_features'].keys())
+IndexError: list index out of range
+
+2020-12-28 23:11:42,642 - DEBUG - class labels must be entered one of (phish, legitimate)
+2020-12-28 23:11:42,642 - DEBUG - class labels must be entered one of (phish, legitimate)
+2020-12-28 23:11:42,644 - INFO - Domain Parse process is done 0 unique URLs are parsed
+2020-12-28 23:11:42,644 - INFO - Domain Parse process is done 0 unique URLs are parsed
+2020-12-28 23:11:42,662 - INFO - rule_extraction.extraction() is running
+2020-12-28 23:11:42,662 - INFO - rule_extraction.extraction() is running
+2020-12-28 23:11:42,748 - ERROR - Error Arff Header : Traceback (most recent call last):
+  File "C:\Users\mmukhtar\Documents\python\Semester 7\Kamsis\json2arff.py", line 20, in convert_for_train
+    features_keys_url = list(features[0]['url_features'].keys())
+IndexError: list index out of range
+
+2020-12-28 23:11:42,748 - ERROR - Error Arff Header : Traceback (most recent call last):
+  File "C:\Users\mmukhtar\Documents\python\Semester 7\Kamsis\json2arff.py", line 20, in convert_for_train
+    features_keys_url = list(features[0]['url_features'].keys())
+IndexError: list index out of range
+
+2020-12-28 23:11:46,592 - DEBUG - class labels must be entered one of (phish, legitimate)
+2020-12-28 23:11:46,592 - DEBUG - class labels must be entered one of (phish, legitimate)
+2020-12-28 23:11:46,594 - INFO - Domain Parse process is done 0 unique URLs are parsed
+2020-12-28 23:11:46,594 - INFO - Domain Parse process is done 0 unique URLs are parsed
+2020-12-28 23:11:46,623 - INFO - rule_extraction.extraction() is running
+2020-12-28 23:11:46,623 - INFO - rule_extraction.extraction() is running
+2020-12-28 23:11:46,689 - ERROR - Error Arff Header : Traceback (most recent call last):
+  File "C:\Users\mmukhtar\Documents\python\Semester 7\Kamsis\json2arff.py", line 20, in convert_for_train
+    features_keys_url = list(features[0]['url_features'].keys())
+IndexError: list index out of range
+
+2020-12-28 23:11:46,689 - ERROR - Error Arff Header : Traceback (most recent call last):
+  File "C:\Users\mmukhtar\Documents\python\Semester 7\Kamsis\json2arff.py", line 20, in convert_for_train
+    features_keys_url = list(features[0]['url_features'].keys())
+IndexError: list index out of range
+
+2020-12-28 23:11:50,694 - DEBUG - class labels must be entered one of (phish, legitimate)
+2020-12-28 23:11:50,694 - DEBUG - class labels must be entered one of (phish, legitimate)
+2020-12-28 23:11:50,696 - INFO - Domain Parse process is done 0 unique URLs are parsed
+2020-12-28 23:11:50,696 - INFO - Domain Parse process is done 0 unique URLs are parsed
+2020-12-28 23:11:50,718 - INFO - rule_extraction.extraction() is running
+2020-12-28 23:11:50,718 - INFO - rule_extraction.extraction() is running
+2020-12-28 23:11:50,767 - ERROR - Error Arff Header : Traceback (most recent call last):
+  File "C:\Users\mmukhtar\Documents\python\Semester 7\Kamsis\json2arff.py", line 20, in convert_for_train
+    features_keys_url = list(features[0]['url_features'].keys())
+IndexError: list index out of range
+
+2020-12-28 23:11:50,767 - ERROR - Error Arff Header : Traceback (most recent call last):
+  File "C:\Users\mmukhtar\Documents\python\Semester 7\Kamsis\json2arff.py", line 20, in convert_for_train
+    features_keys_url = list(features[0]['url_features'].keys())
+IndexError: list index out of range
+
+2020-12-28 23:12:28,661 - DEBUG - class labels must be entered one of (phish, legitimate)
+2020-12-28 23:12:28,661 - DEBUG - class labels must be entered one of (phish, legitimate)
+2020-12-28 23:12:28,663 - INFO - Domain Parse process is done 0 unique URLs are parsed
+2020-12-28 23:12:28,663 - INFO - Domain Parse process is done 0 unique URLs are parsed
+2020-12-28 23:12:28,683 - INFO - rule_extraction.extraction() is running
+2020-12-28 23:12:28,683 - INFO - rule_extraction.extraction() is running
+2020-12-28 23:12:28,740 - ERROR - Error Arff Header : Traceback (most recent call last):
+  File "C:\Users\mmukhtar\Documents\python\Semester 7\Kamsis\json2arff.py", line 20, in convert_for_train
+    features_keys_url = list(features[0]['url_features'].keys())
+IndexError: list index out of range
+
+2020-12-28 23:12:28,740 - ERROR - Error Arff Header : Traceback (most recent call last):
+  File "C:\Users\mmukhtar\Documents\python\Semester 7\Kamsis\json2arff.py", line 20, in convert_for_train
+    features_keys_url = list(features[0]['url_features'].keys())
+IndexError: list index out of range
+
+2020-12-28 23:14:52,778 - DEBUG - class labels must be entered one of (phish, legitimate)
+2020-12-28 23:14:52,778 - DEBUG - class labels must be entered one of (phish, legitimate)
+2020-12-28 23:14:52,781 - DEBUG - class labels must be entered one of (phish, legitimate)
+2020-12-28 23:14:52,781 - DEBUG - class labels must be entered one of (phish, legitimate)
+2020-12-28 23:14:52,783 - DEBUG - class labels must be entered one of (phish, legitimate)
+2020-12-28 23:14:52,783 - DEBUG - class labels must be entered one of (phish, legitimate)
+2020-12-28 23:14:52,785 - DEBUG - class labels must be entered one of (phish, legitimate)
+2020-12-28 23:14:52,785 - DEBUG - class labels must be entered one of (phish, legitimate)
+2020-12-28 23:14:52,787 - DEBUG - class labels must be entered one of (phish, legitimate)
+2020-12-28 23:14:52,787 - DEBUG - class labels must be entered one of (phish, legitimate)
+2020-12-28 23:14:52,790 - DEBUG - class labels must be entered one of (phish, legitimate)
+2020-12-28 23:14:52,790 - DEBUG - class labels must be entered one of (phish, legitimate)
+2020-12-28 23:14:52,792 - DEBUG - class labels must be entered one of (phish, legitimate)
+2020-12-28 23:14:52,792 - DEBUG - class labels must be entered one of (phish, legitimate)
+2020-12-28 23:14:52,794 - DEBUG - class labels must be entered one of (phish, legitimate)
+2020-12-28 23:14:52,794 - DEBUG - class labels must be entered one of (phish, legitimate)
+2020-12-28 23:14:52,796 - DEBUG - class labels must be entered one of (phish, legitimate)
+2020-12-28 23:14:52,796 - DEBUG - class labels must be entered one of (phish, legitimate)
+2020-12-28 23:14:52,798 - DEBUG - class labels must be entered one of (phish, legitimate)
+2020-12-28 23:14:52,798 - DEBUG - class labels must be entered one of (phish, legitimate)
+2020-12-28 23:14:52,800 - DEBUG - class labels must be entered one of (phish, legitimate)
+2020-12-28 23:14:52,800 - DEBUG - class labels must be entered one of (phish, legitimate)
+2020-12-28 23:14:52,802 - DEBUG - class labels must be entered one of (phish, legitimate)
+2020-12-28 23:14:52,802 - DEBUG - class labels must be entered one of (phish, legitimate)
+2020-12-28 23:14:52,804 - DEBUG - class labels must be entered one of (phish, legitimate)
+2020-12-28 23:14:52,804 - DEBUG - class labels must be entered one of (phish, legitimate)
+2020-12-28 23:14:52,807 - DEBUG - class labels must be entered one of (phish, legitimate)
+2020-12-28 23:14:52,807 - DEBUG - class labels must be entered one of (phish, legitimate)
+2020-12-28 23:14:52,809 - DEBUG - class labels must be entered one of (phish, legitimate)
+2020-12-28 23:14:52,809 - DEBUG - class labels must be entered one of (phish, legitimate)
+2020-12-28 23:14:52,811 - DEBUG - class labels must be entered one of (phish, legitimate)
+2020-12-28 23:14:52,811 - DEBUG - class labels must be entered one of (phish, legitimate)
+2020-12-28 23:14:52,813 - DEBUG - class labels must be entered one of (phish, legitimate)
+2020-12-28 23:14:52,813 - DEBUG - class labels must be entered one of (phish, legitimate)
+2020-12-28 23:14:52,815 - DEBUG - class labels must be entered one of (phish, legitimate)
+2020-12-28 23:14:52,815 - DEBUG - class labels must be entered one of (phish, legitimate)
+2020-12-28 23:14:52,816 - DEBUG - class labels must be entered one of (phish, legitimate)
+2020-12-28 23:14:52,816 - DEBUG - class labels must be entered one of (phish, legitimate)
+2020-12-28 23:14:52,818 - DEBUG - class labels must be entered one of (phish, legitimate)
+2020-12-28 23:14:52,818 - DEBUG - class labels must be entered one of (phish, legitimate)
+2020-12-28 23:14:52,821 - DEBUG - class labels must be entered one of (phish, legitimate)
+2020-12-28 23:14:52,821 - DEBUG - class labels must be entered one of (phish, legitimate)
+2020-12-28 23:14:52,823 - DEBUG - class labels must be entered one of (phish, legitimate)
+2020-12-28 23:14:52,823 - DEBUG - class labels must be entered one of (phish, legitimate)
+2020-12-28 23:14:52,826 - DEBUG - class labels must be entered one of (phish, legitimate)
+2020-12-28 23:14:52,826 - DEBUG - class labels must be entered one of (phish, legitimate)
+2020-12-28 23:14:52,829 - DEBUG - class labels must be entered one of (phish, legitimate)
+2020-12-28 23:14:52,829 - DEBUG - class labels must be entered one of (phish, legitimate)
+2020-12-28 23:14:52,831 - DEBUG - class labels must be entered one of (phish, legitimate)
+2020-12-28 23:14:52,831 - DEBUG - class labels must be entered one of (phish, legitimate)
+2020-12-28 23:14:52,834 - DEBUG - class labels must be entered one of (phish, legitimate)
+2020-12-28 23:14:52,834 - DEBUG - class labels must be entered one of (phish, legitimate)
+2020-12-28 23:14:52,836 - DEBUG - class labels must be entered one of (phish, legitimate)
+2020-12-28 23:14:52,836 - DEBUG - class labels must be entered one of (phish, legitimate)
+2020-12-28 23:14:52,839 - DEBUG - class labels must be entered one of (phish, legitimate)
+2020-12-28 23:14:52,839 - DEBUG - class labels must be entered one of (phish, legitimate)
+2020-12-28 23:14:52,841 - DEBUG - class labels must be entered one of (phish, legitimate)
+2020-12-28 23:14:52,841 - DEBUG - class labels must be entered one of (phish, legitimate)
+2020-12-28 23:14:52,843 - DEBUG - class labels must be entered one of (phish, legitimate)
+2020-12-28 23:14:52,843 - DEBUG - class labels must be entered one of (phish, legitimate)
+2020-12-28 23:14:52,845 - DEBUG - class labels must be entered one of (phish, legitimate)
+2020-12-28 23:14:52,845 - DEBUG - class labels must be entered one of (phish, legitimate)
+2020-12-28 23:14:52,849 - DEBUG - class labels must be entered one of (phish, legitimate)
+2020-12-28 23:14:52,849 - DEBUG - class labels must be entered one of (phish, legitimate)
+2020-12-28 23:14:52,851 - DEBUG - class labels must be entered one of (phish, legitimate)
+2020-12-28 23:14:52,851 - DEBUG - class labels must be entered one of (phish, legitimate)
+2020-12-28 23:14:52,853 - DEBUG - class labels must be entered one of (phish, legitimate)
+2020-12-28 23:14:52,853 - DEBUG - class labels must be entered one of (phish, legitimate)
+2020-12-28 23:14:52,856 - ERROR - an error is occurred  : Traceback (most recent call last):
+  File "<ipython-input-49-9ff5dcb0e858>", line 44, in domain_parser
+    if param[i + 1] == 'phish' or param[i + 1] == 'legitimate':
+IndexError: string index out of range
+
+2020-12-28 23:14:52,856 - ERROR - an error is occurred  : Traceback (most recent call last):
+  File "<ipython-input-49-9ff5dcb0e858>", line 44, in domain_parser
+    if param[i + 1] == 'phish' or param[i + 1] == 'legitimate':
+IndexError: string index out of range
+
+2020-12-28 23:14:52,858 - DEBUG - an error occurred when | C:\Users\mmukhtar\Documents\python\Semester 7\Kamsis\data\dataAll.json.txt | file was processing
+2020-12-28 23:14:52,858 - DEBUG - an error occurred when | C:\Users\mmukhtar\Documents\python\Semester 7\Kamsis\data\dataAll.json.txt | file was processing
+2020-12-28 23:14:52,860 - INFO - Domain Parse process is done 0 unique URLs are parsed
+2020-12-28 23:14:52,860 - INFO - Domain Parse process is done 0 unique URLs are parsed
+2020-12-28 23:14:52,881 - INFO - rule_extraction.extraction() is running
+2020-12-28 23:14:52,881 - INFO - rule_extraction.extraction() is running
+2020-12-28 23:14:52,928 - ERROR - Error Arff Header : Traceback (most recent call last):
+  File "C:\Users\mmukhtar\Documents\python\Semester 7\Kamsis\json2arff.py", line 20, in convert_for_train
+    features_keys_url = list(features[0]['url_features'].keys())
+IndexError: list index out of range
+
+2020-12-28 23:14:52,928 - ERROR - Error Arff Header : Traceback (most recent call last):
+  File "C:\Users\mmukhtar\Documents\python\Semester 7\Kamsis\json2arff.py", line 20, in convert_for_train
+    features_keys_url = list(features[0]['url_features'].keys())
+IndexError: list index out of range
+

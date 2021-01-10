@@ -1,0 +1,1820 @@
+{
+	"header" : {
+		"relation" : "weka.datagenerators.classifiers.classification.RDG1-S_1_-n_100_-a_10_-c_2_-N_0_-I_0_-M_1_-R_10-weka.filters.unsupervised.attribute.StringToWordVector-Rfirst-last-W1000-prune-rate-1.0-N0-stemmerweka.core.stemmers.NullStemmer-stopwords-handlerweka.core.stopwords.Null-M1-tokenizerweka.core.tokenizers.WordTokenizer -delimiters \" @@-@@r@@-@@n@@-@@t.,;:\\'\\\"()?!\"-weka.filters.unsupervised.attribute.StringToWordVector-Rfirst-last-W1000-prune-rate-1.0-N0-stemmerweka.core.stemmers.NullStemmer-stopwords-handlerweka.core.stopwords.Null-M1-tokenizerweka.core.tokenizers.WordTokenizer -delimiters \" @@-@@r@@-@@n@@-@@t.,;:\\'\\\"()?!\"",
+		"attributes" : [
+			{
+				"name" : "a0",
+				"type" : "nominal",
+				"class" : false,
+				"weight" : 1.0,
+				"labels" : [
+					"false",
+					"true"
+				]
+			},
+			{
+				"name" : "a1",
+				"type" : "nominal",
+				"class" : false,
+				"weight" : 1.0,
+				"labels" : [
+					"false",
+					"true"
+				]
+			},
+			{
+				"name" : "a2",
+				"type" : "nominal",
+				"class" : false,
+				"weight" : 1.0,
+				"labels" : [
+					"false",
+					"true"
+				]
+			},
+			{
+				"name" : "a3",
+				"type" : "nominal",
+				"class" : false,
+				"weight" : 1.0,
+				"labels" : [
+					"false",
+					"true"
+				]
+			},
+			{
+				"name" : "a4",
+				"type" : "nominal",
+				"class" : false,
+				"weight" : 1.0,
+				"labels" : [
+					"false",
+					"true"
+				]
+			},
+			{
+				"name" : "a5",
+				"type" : "nominal",
+				"class" : false,
+				"weight" : 1.0,
+				"labels" : [
+					"false",
+					"true"
+				]
+			},
+			{
+				"name" : "a6",
+				"type" : "nominal",
+				"class" : false,
+				"weight" : 1.0,
+				"labels" : [
+					"false",
+					"true"
+				]
+			},
+			{
+				"name" : "a7",
+				"type" : "nominal",
+				"class" : false,
+				"weight" : 1.0,
+				"labels" : [
+					"false",
+					"true"
+				]
+			},
+			{
+				"name" : "a8",
+				"type" : "nominal",
+				"class" : false,
+				"weight" : 1.0,
+				"labels" : [
+					"false",
+					"true"
+				]
+			},
+			{
+				"name" : "a9",
+				"type" : "nominal",
+				"class" : false,
+				"weight" : 1.0,
+				"labels" : [
+					"false",
+					"true"
+				]
+			},
+			{
+				"name" : "class",
+				"type" : "nominal",
+				"class" : true,
+				"weight" : 1.0,
+				"labels" : [
+					"c0",
+					"c1"
+				]
+			}
+		]
+	},
+	"data" : [
+		{
+			"sparse" : false,
+			"weight" : 1.0,
+			"values" : [
+				"true",
+				"false",
+				"false",
+				"false",
+				"true",
+				"false",
+				"true",
+				"true",
+				"true",
+				"true",
+				"c0"
+			]
+		},
+		{
+			"sparse" : false,
+			"weight" : 1.0,
+			"values" : [
+				"true",
+				"true",
+				"false",
+				"false",
+				"false",
+				"true",
+				"true",
+				"false",
+				"true",
+				"true",
+				"c0"
+			]
+		},
+		{
+			"sparse" : false,
+			"weight" : 1.0,
+			"values" : [
+				"false",
+				"false",
+				"true",
+				"true",
+				"false",
+				"true",
+				"false",
+				"false",
+				"false",
+				"false",
+				"c1"
+			]
+		},
+		{
+			"sparse" : false,
+			"weight" : 1.0,
+			"values" : [
+				"false",
+				"true",
+				"false",
+				"true",
+				"true",
+				"false",
+				"true",
+				"true",
+				"false",
+				"false",
+				"c0"
+			]
+		},
+		{
+			"sparse" : false,
+			"weight" : 1.0,
+			"values" : [
+				"true",
+				"true",
+				"false",
+				"false",
+				"false",
+				"true",
+				"true",
+				"false",
+				"false",
+				"true",
+				"c0"
+			]
+		},
+		{
+			"sparse" : false,
+			"weight" : 1.0,
+			"values" : [
+				"true",
+				"true",
+				"true",
+				"true",
+				"false",
+				"false",
+				"true",
+				"false",
+				"true",
+				"true",
+				"c1"
+			]
+		},
+		{
+			"sparse" : false,
+			"weight" : 1.0,
+			"values" : [
+				"true",
+				"true",
+				"false",
+				"true",
+				"true",
+				"false",
+				"true",
+				"false",
+				"false",
+				"true",
+				"c0"
+			]
+		},
+		{
+			"sparse" : false,
+			"weight" : 1.0,
+			"values" : [
+				"false",
+				"false",
+				"true",
+				"false",
+				"true",
+				"true",
+				"false",
+				"true",
+				"false",
+				"true",
+				"c1"
+			]
+		},
+		{
+			"sparse" : false,
+			"weight" : 1.0,
+			"values" : [
+				"true",
+				"true",
+				"false",
+				"true",
+				"false",
+				"true",
+				"false",
+				"true",
+				"true",
+				"true",
+				"c0"
+			]
+		},
+		{
+			"sparse" : false,
+			"weight" : 1.0,
+			"values" : [
+				"false",
+				"false",
+				"true",
+				"true",
+				"true",
+				"true",
+				"true",
+				"true",
+				"false",
+				"true",
+				"c1"
+			]
+		},
+		{
+			"sparse" : false,
+			"weight" : 1.0,
+			"values" : [
+				"false",
+				"true",
+				"false",
+				"false",
+				"false",
+				"true",
+				"true",
+				"false",
+				"true",
+				"false",
+				"c0"
+			]
+		},
+		{
+			"sparse" : false,
+			"weight" : 1.0,
+			"values" : [
+				"true",
+				"false",
+				"true",
+				"false",
+				"true",
+				"false",
+				"false",
+				"false",
+				"false",
+				"true",
+				"c0"
+			]
+		},
+		{
+			"sparse" : false,
+			"weight" : 1.0,
+			"values" : [
+				"true",
+				"true",
+				"false",
+				"true",
+				"true",
+				"true",
+				"false",
+				"false",
+				"false",
+				"false",
+				"c1"
+			]
+		},
+		{
+			"sparse" : false,
+			"weight" : 1.0,
+			"values" : [
+				"false",
+				"false",
+				"false",
+				"true",
+				"true",
+				"true",
+				"false",
+				"false",
+				"true",
+				"false",
+				"c1"
+			]
+		},
+		{
+			"sparse" : false,
+			"weight" : 1.0,
+			"values" : [
+				"false",
+				"false",
+				"false",
+				"true",
+				"true",
+				"false",
+				"false",
+				"false",
+				"true",
+				"false",
+				"c0"
+			]
+		},
+		{
+			"sparse" : false,
+			"weight" : 1.0,
+			"values" : [
+				"true",
+				"false",
+				"false",
+				"true",
+				"false",
+				"false",
+				"true",
+				"false",
+				"false",
+				"false",
+				"c0"
+			]
+		},
+		{
+			"sparse" : false,
+			"weight" : 1.0,
+			"values" : [
+				"true",
+				"true",
+				"true",
+				"false",
+				"false",
+				"true",
+				"true",
+				"true",
+				"false",
+				"true",
+				"c1"
+			]
+		},
+		{
+			"sparse" : false,
+			"weight" : 1.0,
+			"values" : [
+				"true",
+				"false",
+				"false",
+				"true",
+				"false",
+				"true",
+				"false",
+				"true",
+				"false",
+				"false",
+				"c0"
+			]
+		},
+		{
+			"sparse" : false,
+			"weight" : 1.0,
+			"values" : [
+				"true",
+				"false",
+				"true",
+				"false",
+				"false",
+				"false",
+				"false",
+				"false",
+				"true",
+				"true",
+				"c0"
+			]
+		},
+		{
+			"sparse" : false,
+			"weight" : 1.0,
+			"values" : [
+				"false",
+				"false",
+				"false",
+				"true",
+				"false",
+				"true",
+				"true",
+				"false",
+				"false",
+				"true",
+				"c1"
+			]
+		},
+		{
+			"sparse" : false,
+			"weight" : 1.0,
+			"values" : [
+				"false",
+				"true",
+				"false",
+				"true",
+				"true",
+				"true",
+				"false",
+				"true",
+				"true",
+				"false",
+				"c1"
+			]
+		},
+		{
+			"sparse" : false,
+			"weight" : 1.0,
+			"values" : [
+				"false",
+				"true",
+				"false",
+				"true",
+				"true",
+				"false",
+				"false",
+				"false",
+				"false",
+				"true",
+				"c0"
+			]
+		},
+		{
+			"sparse" : false,
+			"weight" : 1.0,
+			"values" : [
+				"false",
+				"true",
+				"true",
+				"true",
+				"false",
+				"false",
+				"false",
+				"false",
+				"true",
+				"true",
+				"c0"
+			]
+		},
+		{
+			"sparse" : false,
+			"weight" : 1.0,
+			"values" : [
+				"false",
+				"true",
+				"false",
+				"false",
+				"true",
+				"false",
+				"false",
+				"false",
+				"false",
+				"false",
+				"c0"
+			]
+		},
+		{
+			"sparse" : false,
+			"weight" : 1.0,
+			"values" : [
+				"true",
+				"true",
+				"true",
+				"false",
+				"false",
+				"true",
+				"false",
+				"false",
+				"true",
+				"true",
+				"c0"
+			]
+		},
+		{
+			"sparse" : false,
+			"weight" : 1.0,
+			"values" : [
+				"true",
+				"false",
+				"true",
+				"true",
+				"false",
+				"false",
+				"true",
+				"false",
+				"true",
+				"false",
+				"c0"
+			]
+		},
+		{
+			"sparse" : false,
+			"weight" : 1.0,
+			"values" : [
+				"true",
+				"false",
+				"false",
+				"true",
+				"false",
+				"true",
+				"false",
+				"true",
+				"true",
+				"true",
+				"c0"
+			]
+		},
+		{
+			"sparse" : false,
+			"weight" : 1.0,
+			"values" : [
+				"true",
+				"false",
+				"true",
+				"true",
+				"true",
+				"true",
+				"true",
+				"true",
+				"false",
+				"false",
+				"c1"
+			]
+		},
+		{
+			"sparse" : false,
+			"weight" : 1.0,
+			"values" : [
+				"true",
+				"true",
+				"true",
+				"true",
+				"true",
+				"true",
+				"true",
+				"true",
+				"true",
+				"false",
+				"c0"
+			]
+		},
+		{
+			"sparse" : false,
+			"weight" : 1.0,
+			"values" : [
+				"true",
+				"true",
+				"false",
+				"true",
+				"false",
+				"false",
+				"true",
+				"false",
+				"false",
+				"true",
+				"c0"
+			]
+		},
+		{
+			"sparse" : false,
+			"weight" : 1.0,
+			"values" : [
+				"true",
+				"true",
+				"false",
+				"false",
+				"true",
+				"true",
+				"true",
+				"false",
+				"false",
+				"false",
+				"c0"
+			]
+		},
+		{
+			"sparse" : false,
+			"weight" : 1.0,
+			"values" : [
+				"false",
+				"false",
+				"false",
+				"true",
+				"false",
+				"false",
+				"false",
+				"true",
+				"true",
+				"true",
+				"c0"
+			]
+		},
+		{
+			"sparse" : false,
+			"weight" : 1.0,
+			"values" : [
+				"false",
+				"true",
+				"true",
+				"false",
+				"false",
+				"false",
+				"true",
+				"true",
+				"true",
+				"false",
+				"c0"
+			]
+		},
+		{
+			"sparse" : false,
+			"weight" : 1.0,
+			"values" : [
+				"false",
+				"true",
+				"false",
+				"true",
+				"false",
+				"true",
+				"false",
+				"true",
+				"false",
+				"true",
+				"c1"
+			]
+		},
+		{
+			"sparse" : false,
+			"weight" : 1.0,
+			"values" : [
+				"true",
+				"true",
+				"false",
+				"false",
+				"false",
+				"true",
+				"false",
+				"false",
+				"true",
+				"true",
+				"c0"
+			]
+		},
+		{
+			"sparse" : false,
+			"weight" : 1.0,
+			"values" : [
+				"false",
+				"true",
+				"false",
+				"false",
+				"true",
+				"false",
+				"false",
+				"false",
+				"false",
+				"false",
+				"c0"
+			]
+		},
+		{
+			"sparse" : false,
+			"weight" : 1.0,
+			"values" : [
+				"true",
+				"false",
+				"true",
+				"true",
+				"true",
+				"false",
+				"false",
+				"false",
+				"true",
+				"false",
+				"c0"
+			]
+		},
+		{
+			"sparse" : false,
+			"weight" : 1.0,
+			"values" : [
+				"false",
+				"true",
+				"false",
+				"false",
+				"false",
+				"false",
+				"true",
+				"false",
+				"false",
+				"false",
+				"c0"
+			]
+		},
+		{
+			"sparse" : false,
+			"weight" : 1.0,
+			"values" : [
+				"true",
+				"true",
+				"false",
+				"true",
+				"false",
+				"false",
+				"false",
+				"true",
+				"false",
+				"true",
+				"c0"
+			]
+		},
+		{
+			"sparse" : false,
+			"weight" : 1.0,
+			"values" : [
+				"true",
+				"true",
+				"true",
+				"true",
+				"true",
+				"true",
+				"true",
+				"true",
+				"false",
+				"false",
+				"c1"
+			]
+		},
+		{
+			"sparse" : false,
+			"weight" : 1.0,
+			"values" : [
+				"true",
+				"false",
+				"false",
+				"true",
+				"false",
+				"true",
+				"false",
+				"true",
+				"false",
+				"true",
+				"c1"
+			]
+		},
+		{
+			"sparse" : false,
+			"weight" : 1.0,
+			"values" : [
+				"false",
+				"true",
+				"true",
+				"true",
+				"true",
+				"true",
+				"false",
+				"true",
+				"true",
+				"true",
+				"c0"
+			]
+		},
+		{
+			"sparse" : false,
+			"weight" : 1.0,
+			"values" : [
+				"false",
+				"false",
+				"false",
+				"false",
+				"true",
+				"false",
+				"false",
+				"false",
+				"false",
+				"true",
+				"c0"
+			]
+		},
+		{
+			"sparse" : false,
+			"weight" : 1.0,
+			"values" : [
+				"false",
+				"false",
+				"true",
+				"true",
+				"true",
+				"false",
+				"false",
+				"false",
+				"false",
+				"true",
+				"c0"
+			]
+		},
+		{
+			"sparse" : false,
+			"weight" : 1.0,
+			"values" : [
+				"true",
+				"true",
+				"false",
+				"false",
+				"false",
+				"false",
+				"false",
+				"true",
+				"false",
+				"true",
+				"c0"
+			]
+		},
+		{
+			"sparse" : false,
+			"weight" : 1.0,
+			"values" : [
+				"false",
+				"false",
+				"false",
+				"false",
+				"false",
+				"false",
+				"true",
+				"false",
+				"true",
+				"false",
+				"c0"
+			]
+		},
+		{
+			"sparse" : false,
+			"weight" : 1.0,
+			"values" : [
+				"false",
+				"false",
+				"false",
+				"true",
+				"true",
+				"true",
+				"false",
+				"false",
+				"true",
+				"false",
+				"c1"
+			]
+		},
+		{
+			"sparse" : false,
+			"weight" : 1.0,
+			"values" : [
+				"true",
+				"false",
+				"true",
+				"true",
+				"false",
+				"true",
+				"true",
+				"false",
+				"true",
+				"true",
+				"c1"
+			]
+		},
+		{
+			"sparse" : false,
+			"weight" : 1.0,
+			"values" : [
+				"true",
+				"false",
+				"false",
+				"true",
+				"true",
+				"true",
+				"false",
+				"true",
+				"false",
+				"true",
+				"c1"
+			]
+		},
+		{
+			"sparse" : false,
+			"weight" : 1.0,
+			"values" : [
+				"false",
+				"false",
+				"true",
+				"true",
+				"true",
+				"true",
+				"true",
+				"true",
+				"false",
+				"false",
+				"c0"
+			]
+		},
+		{
+			"sparse" : false,
+			"weight" : 1.0,
+			"values" : [
+				"true",
+				"false",
+				"true",
+				"false",
+				"false",
+				"true",
+				"true",
+				"false",
+				"true",
+				"false",
+				"c1"
+			]
+		},
+		{
+			"sparse" : false,
+			"weight" : 1.0,
+			"values" : [
+				"false",
+				"true",
+				"false",
+				"false",
+				"true",
+				"false",
+				"false",
+				"true",
+				"true",
+				"true",
+				"c0"
+			]
+		},
+		{
+			"sparse" : false,
+			"weight" : 1.0,
+			"values" : [
+				"false",
+				"true",
+				"false",
+				"false",
+				"true",
+				"false",
+				"true",
+				"true",
+				"true",
+				"true",
+				"c0"
+			]
+		},
+		{
+			"sparse" : false,
+			"weight" : 1.0,
+			"values" : [
+				"false",
+				"false",
+				"false",
+				"false",
+				"true",
+				"true",
+				"true",
+				"false",
+				"false",
+				"true",
+				"c1"
+			]
+		},
+		{
+			"sparse" : false,
+			"weight" : 1.0,
+			"values" : [
+				"false",
+				"false",
+				"true",
+				"true",
+				"true",
+				"true",
+				"false",
+				"false",
+				"true",
+				"true",
+				"c0"
+			]
+		},
+		{
+			"sparse" : false,
+			"weight" : 1.0,
+			"values" : [
+				"false",
+				"true",
+				"false",
+				"true",
+				"false",
+				"true",
+				"true",
+				"false",
+				"true",
+				"true",
+				"c0"
+			]
+		},
+		{
+			"sparse" : false,
+			"weight" : 1.0,
+			"values" : [
+				"true",
+				"false",
+				"false",
+				"true",
+				"true",
+				"false",
+				"true",
+				"true",
+				"false",
+				"false",
+				"c0"
+			]
+		},
+		{
+			"sparse" : false,
+			"weight" : 1.0,
+			"values" : [
+				"false",
+				"false",
+				"false",
+				"true",
+				"true",
+				"true",
+				"false",
+				"true",
+				"true",
+				"true",
+				"c1"
+			]
+		},
+		{
+			"sparse" : false,
+			"weight" : 1.0,
+			"values" : [
+				"true",
+				"true",
+				"false",
+				"true",
+				"false",
+				"true",
+				"false",
+				"true",
+				"true",
+				"true",
+				"c0"
+			]
+		},
+		{
+			"sparse" : false,
+			"weight" : 1.0,
+			"values" : [
+				"true",
+				"true",
+				"true",
+				"true",
+				"false",
+				"true",
+				"false",
+				"true",
+				"false",
+				"false",
+				"c1"
+			]
+		},
+		{
+			"sparse" : false,
+			"weight" : 1.0,
+			"values" : [
+				"true",
+				"false",
+				"true",
+				"false",
+				"false",
+				"false",
+				"false",
+				"true",
+				"false",
+				"false",
+				"c0"
+			]
+		},
+		{
+			"sparse" : false,
+			"weight" : 1.0,
+			"values" : [
+				"true",
+				"true",
+				"false",
+				"true",
+				"false",
+				"false",
+				"false",
+				"false",
+				"false",
+				"true",
+				"c0"
+			]
+		},
+		{
+			"sparse" : false,
+			"weight" : 1.0,
+			"values" : [
+				"true",
+				"true",
+				"false",
+				"false",
+				"false",
+				"true",
+				"false",
+				"true",
+				"false",
+				"true",
+				"c1"
+			]
+		},
+		{
+			"sparse" : false,
+			"weight" : 1.0,
+			"values" : [
+				"true",
+				"true",
+				"true",
+				"true",
+				"true",
+				"false",
+				"true",
+				"false",
+				"true",
+				"false",
+				"c0"
+			]
+		},
+		{
+			"sparse" : false,
+			"weight" : 1.0,
+			"values" : [
+				"false",
+				"true",
+				"true",
+				"false",
+				"true",
+				"true",
+				"false",
+				"false",
+				"true",
+				"true",
+				"c0"
+			]
+		},
+		{
+			"sparse" : false,
+			"weight" : 1.0,
+			"values" : [
+				"true",
+				"true",
+				"true",
+				"true",
+				"false",
+				"true",
+				"false",
+				"true",
+				"false",
+				"true",
+				"c1"
+			]
+		},
+		{
+			"sparse" : false,
+			"weight" : 1.0,
+			"values" : [
+				"false",
+				"false",
+				"true",
+				"false",
+				"true",
+				"true",
+				"false",
+				"true",
+				"true",
+				"false",
+				"c0"
+			]
+		},
+		{
+			"sparse" : false,
+			"weight" : 1.0,
+			"values" : [
+				"false",
+				"true",
+				"false",
+				"false",
+				"false",
+				"true",
+				"false",
+				"true",
+				"false",
+				"false",
+				"c0"
+			]
+		},
+		{
+			"sparse" : false,
+			"weight" : 1.0,
+			"values" : [
+				"true",
+				"false",
+				"true",
+				"true",
+				"false",
+				"true",
+				"true",
+				"false",
+				"true",
+				"true",
+				"c1"
+			]
+		},
+		{
+			"sparse" : false,
+			"weight" : 1.0,
+			"values" : [
+				"false",
+				"false",
+				"true",
+				"true",
+				"false",
+				"true",
+				"true",
+				"true",
+				"true",
+				"false",
+				"c1"
+			]
+		},
+		{
+			"sparse" : false,
+			"weight" : 1.0,
+			"values" : [
+				"false",
+				"false",
+				"false",
+				"false",
+				"false",
+				"false",
+				"true",
+				"true",
+				"false",
+				"false",
+				"c0"
+			]
+		},
+		{
+			"sparse" : false,
+			"weight" : 1.0,
+			"values" : [
+				"true",
+				"false",
+				"false",
+				"false",
+				"false",
+				"false",
+				"true",
+				"false",
+				"true",
+				"false",
+				"c0"
+			]
+		},
+		{
+			"sparse" : false,
+			"weight" : 1.0,
+			"values" : [
+				"false",
+				"true",
+				"true",
+				"true",
+				"false",
+				"false",
+				"false",
+				"true",
+				"true",
+				"false",
+				"c0"
+			]
+		},
+		{
+			"sparse" : false,
+			"weight" : 1.0,
+			"values" : [
+				"true",
+				"true",
+				"false",
+				"true",
+				"true",
+				"false",
+				"true",
+				"true",
+				"false",
+				"false",
+				"c0"
+			]
+		},
+		{
+			"sparse" : false,
+			"weight" : 1.0,
+			"values" : [
+				"true",
+				"false",
+				"false",
+				"false",
+				"false",
+				"false",
+				"false",
+				"true",
+				"false",
+				"false",
+				"c0"
+			]
+		},
+		{
+			"sparse" : false,
+			"weight" : 1.0,
+			"values" : [
+				"true",
+				"false",
+				"true",
+				"false",
+				"false",
+				"false",
+				"true",
+				"true",
+				"false",
+				"true",
+				"c0"
+			]
+		},
+		{
+			"sparse" : false,
+			"weight" : 1.0,
+			"values" : [
+				"true",
+				"false",
+				"false",
+				"true",
+				"false",
+				"true",
+				"true",
+				"false",
+				"true",
+				"false",
+				"c0"
+			]
+		},
+		{
+			"sparse" : false,
+			"weight" : 1.0,
+			"values" : [
+				"true",
+				"true",
+				"false",
+				"true",
+				"true",
+				"true",
+				"true",
+				"true",
+				"false",
+				"true",
+				"c1"
+			]
+		},
+		{
+			"sparse" : false,
+			"weight" : 1.0,
+			"values" : [
+				"false",
+				"false",
+				"false",
+				"false",
+				"false",
+				"true",
+				"false",
+				"false",
+				"false",
+				"true",
+				"c1"
+			]
+		},
+		{
+			"sparse" : false,
+			"weight" : 1.0,
+			"values" : [
+				"true",
+				"false",
+				"true",
+				"true",
+				"false",
+				"true",
+				"false",
+				"false",
+				"false",
+				"false",
+				"c1"
+			]
+		},
+		{
+			"sparse" : false,
+			"weight" : 1.0,
+			"values" : [
+				"false",
+				"true",
+				"false",
+				"true",
+				"false",
+				"true",
+				"true",
+				"false",
+				"false",
+				"true",
+				"c1"
+			]
+		},
+		{
+			"sparse" : false,
+			"weight" : 1.0,
+			"values" : [
+				"false",
+				"true",
+				"true",
+				"false",
+				"false",
+				"true",
+				"false",
+				"true",
+				"false",
+				"false",
+				"c1"
+			]
+		},
+		{
+			"sparse" : false,
+			"weight" : 1.0,
+			"values" : [
+				"true",
+				"false",
+				"false",
+				"true",
+				"false",
+				"true",
+				"true",
+				"false",
+				"true",
+				"false",
+				"c0"
+			]
+		},
+		{
+			"sparse" : false,
+			"weight" : 1.0,
+			"values" : [
+				"false",
+				"false",
+				"false",
+				"false",
+				"true",
+				"true",
+				"true",
+				"true",
+				"true",
+				"false",
+				"c0"
+			]
+		},
+		{
+			"sparse" : false,
+			"weight" : 1.0,
+			"values" : [
+				"true",
+				"false",
+				"true",
+				"true",
+				"false",
+				"true",
+				"false",
+				"true",
+				"true",
+				"false",
+				"c1"
+			]
+		},
+		{
+			"sparse" : false,
+			"weight" : 1.0,
+			"values" : [
+				"true",
+				"true",
+				"false",
+				"true",
+				"true",
+				"false",
+				"true",
+				"false",
+				"true",
+				"true",
+				"c1"
+			]
+		},
+		{
+			"sparse" : false,
+			"weight" : 1.0,
+			"values" : [
+				"true",
+				"true",
+				"true",
+				"false",
+				"false",
+				"true",
+				"false",
+				"true",
+				"false",
+				"false",
+				"c1"
+			]
+		},
+		{
+			"sparse" : false,
+			"weight" : 1.0,
+			"values" : [
+				"false",
+				"true",
+				"false",
+				"true",
+				"true",
+				"true",
+				"true",
+				"false",
+				"true",
+				"false",
+				"c0"
+			]
+		},
+		{
+			"sparse" : false,
+			"weight" : 1.0,
+			"values" : [
+				"true",
+				"true",
+				"true",
+				"true",
+				"true",
+				"true",
+				"false",
+				"false",
+				"true",
+				"false",
+				"c0"
+			]
+		},
+		{
+			"sparse" : false,
+			"weight" : 1.0,
+			"values" : [
+				"false",
+				"false",
+				"true",
+				"true",
+				"true",
+				"false",
+				"true",
+				"false",
+				"true",
+				"false",
+				"c0"
+			]
+		},
+		{
+			"sparse" : false,
+			"weight" : 1.0,
+			"values" : [
+				"false",
+				"false",
+				"false",
+				"true",
+				"true",
+				"true",
+				"false",
+				"false",
+				"false",
+				"true",
+				"c1"
+			]
+		},
+		{
+			"sparse" : false,
+			"weight" : 1.0,
+			"values" : [
+				"false",
+				"true",
+				"false",
+				"true",
+				"true",
+				"true",
+				"false",
+				"true",
+				"true",
+				"false",
+				"c1"
+			]
+		},
+		{
+			"sparse" : false,
+			"weight" : 1.0,
+			"values" : [
+				"false",
+				"false",
+				"true",
+				"true",
+				"false",
+				"false",
+				"false",
+				"true",
+				"true",
+				"false",
+				"c0"
+			]
+		},
+		{
+			"sparse" : false,
+			"weight" : 1.0,
+			"values" : [
+				"true",
+				"false",
+				"false",
+				"false",
+				"false",
+				"false",
+				"true",
+				"true",
+				"false",
+				"false",
+				"c0"
+			]
+		},
+		{
+			"sparse" : false,
+			"weight" : 1.0,
+			"values" : [
+				"true",
+				"true",
+				"true",
+				"false",
+				"true",
+				"false",
+				"false",
+				"false",
+				"true",
+				"true",
+				"c0"
+			]
+		},
+		{
+			"sparse" : false,
+			"weight" : 1.0,
+			"values" : [
+				"false",
+				"false",
+				"false",
+				"true",
+				"true",
+				"false",
+				"false",
+				"true",
+				"false",
+				"true",
+				"c0"
+			]
+		},
+		{
+			"sparse" : false,
+			"weight" : 1.0,
+			"values" : [
+				"true",
+				"false",
+				"true",
+				"true",
+				"true",
+				"false",
+				"true",
+				"true",
+				"false",
+				"true",
+				"c0"
+			]
+		},
+		{
+			"sparse" : false,
+			"weight" : 1.0,
+			"values" : [
+				"true",
+				"false",
+				"false",
+				"false",
+				"false",
+				"false",
+				"false",
+				"true",
+				"true",
+				"true",
+				"c0"
+			]
+		},
+		{
+			"sparse" : false,
+			"weight" : 1.0,
+			"values" : [
+				"false",
+				"true",
+				"true",
+				"false",
+				"true",
+				"true",
+				"true",
+				"false",
+				"false",
+				"false",
+				"c0"
+			]
+		},
+		{
+			"sparse" : false,
+			"weight" : 1.0,
+			"values" : [
+				"true",
+				"false",
+				"true",
+				"true",
+				"false",
+				"false",
+				"false",
+				"true",
+				"false",
+				"true",
+				"c0"
+			]
+		}
+	]
+}
+

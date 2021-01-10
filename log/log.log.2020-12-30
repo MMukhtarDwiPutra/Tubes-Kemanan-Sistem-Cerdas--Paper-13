@@ -1,0 +1,793 @@
+2020-12-30 17:31:35,190 - INFO - rule_extraction.extraction() is running
+2020-12-30 17:31:35,761 - ERROR - url_rules.check_rule_11()-Alexa  /  Error : Traceback (most recent call last):
+  File "C:\Users\mmukhtar\Documents\python\Semester 7\Kamsis\url_rules.py", line 201, in alexa_check
+    alexa_txt = open("{0}{1}.txt".format(self.path_alexa_files, line[0]), "r")
+FileNotFoundError: [Errno 2] No such file or directory: '../data/alexa-tld/a.txt'
+
+2020-12-30 17:31:35,761 - ERROR - url_rules.check_rule_11()-Alexa  /  Error : Traceback (most recent call last):
+  File "C:\Users\mmukhtar\Documents\python\Semester 7\Kamsis\url_rules.py", line 201, in alexa_check
+    alexa_txt = open("{0}{1}.txt".format(self.path_alexa_files, line[0]), "r")
+FileNotFoundError: [Errno 2] No such file or directory: '../data/alexa-tld/a.txt'
+
+2020-12-30 17:31:35,913 - ERROR - url_rules.main() Error : Traceback (most recent call last):
+  File "C:\Users\mmukhtar\Documents\python\Semester 7\Kamsis\url_rules.py", line 68, in rules_main
+    result_nlp = self.nlp_features(words_raw)
+  File "C:\Users\mmukhtar\Documents\python\Semester 7\Kamsis\url_rules.py", line 297, in nlp_features
+    splitted_words = self.word_splitter.splitl(grouped_words['len_gt_7'])
+AttributeError: 'WordSplitterClass' object has no attribute 'splitl'
+
+2020-12-30 17:31:35,913 - ERROR - url_rules.main() Error : Traceback (most recent call last):
+  File "C:\Users\mmukhtar\Documents\python\Semester 7\Kamsis\url_rules.py", line 68, in rules_main
+    result_nlp = self.nlp_features(words_raw)
+  File "C:\Users\mmukhtar\Documents\python\Semester 7\Kamsis\url_rules.py", line 297, in nlp_features
+    splitted_words = self.word_splitter.splitl(grouped_words['len_gt_7'])
+AttributeError: 'WordSplitterClass' object has no attribute 'splitl'
+
+2020-12-30 17:31:35,935 - ERROR - url_rules.check_rule_11()-Alexa  /  Error : Traceback (most recent call last):
+  File "C:\Users\mmukhtar\Documents\python\Semester 7\Kamsis\url_rules.py", line 201, in alexa_check
+    alexa_txt = open("{0}{1}.txt".format(self.path_alexa_files, line[0]), "r")
+FileNotFoundError: [Errno 2] No such file or directory: '../data/alexa-tld/s.txt'
+
+2020-12-30 17:31:35,935 - ERROR - url_rules.check_rule_11()-Alexa  /  Error : Traceback (most recent call last):
+  File "C:\Users\mmukhtar\Documents\python\Semester 7\Kamsis\url_rules.py", line 201, in alexa_check
+    alexa_txt = open("{0}{1}.txt".format(self.path_alexa_files, line[0]), "r")
+FileNotFoundError: [Errno 2] No such file or directory: '../data/alexa-tld/s.txt'
+
+2020-12-30 17:31:36,030 - ERROR - url_rules.main() Error : Traceback (most recent call last):
+  File "C:\Users\mmukhtar\Documents\python\Semester 7\Kamsis\url_rules.py", line 68, in rules_main
+    result_nlp = self.nlp_features(words_raw)
+  File "C:\Users\mmukhtar\Documents\python\Semester 7\Kamsis\url_rules.py", line 297, in nlp_features
+    splitted_words = self.word_splitter.splitl(grouped_words['len_gt_7'])
+AttributeError: 'WordSplitterClass' object has no attribute 'splitl'
+
+2020-12-30 17:31:36,030 - ERROR - url_rules.main() Error : Traceback (most recent call last):
+  File "C:\Users\mmukhtar\Documents\python\Semester 7\Kamsis\url_rules.py", line 68, in rules_main
+    result_nlp = self.nlp_features(words_raw)
+  File "C:\Users\mmukhtar\Documents\python\Semester 7\Kamsis\url_rules.py", line 297, in nlp_features
+    splitted_words = self.word_splitter.splitl(grouped_words['len_gt_7'])
+AttributeError: 'WordSplitterClass' object has no attribute 'splitl'
+
+2020-12-30 17:31:36,077 - ERROR - url_rules.check_rule_11()-Alexa  /  Error : Traceback (most recent call last):
+  File "C:\Users\mmukhtar\Documents\python\Semester 7\Kamsis\url_rules.py", line 201, in alexa_check
+    alexa_txt = open("{0}{1}.txt".format(self.path_alexa_files, line[0]), "r")
+FileNotFoundError: [Errno 2] No such file or directory: '../data/alexa-tld/h.txt'
+
+2020-12-30 17:31:36,077 - ERROR - url_rules.check_rule_11()-Alexa  /  Error : Traceback (most recent call last):
+  File "C:\Users\mmukhtar\Documents\python\Semester 7\Kamsis\url_rules.py", line 201, in alexa_check
+    alexa_txt = open("{0}{1}.txt".format(self.path_alexa_files, line[0]), "r")
+FileNotFoundError: [Errno 2] No such file or directory: '../data/alexa-tld/h.txt'
+
+2020-12-30 17:31:36,811 - ERROR - url_rules.main() Error : Traceback (most recent call last):
+  File "C:\Users\mmukhtar\Documents\python\Semester 7\Kamsis\url_rules.py", line 68, in rules_main
+    result_nlp = self.nlp_features(words_raw)
+  File "C:\Users\mmukhtar\Documents\python\Semester 7\Kamsis\url_rules.py", line 297, in nlp_features
+    splitted_words = self.word_splitter.splitl(grouped_words['len_gt_7'])
+AttributeError: 'WordSplitterClass' object has no attribute 'splitl'
+
+2020-12-30 17:31:36,811 - ERROR - url_rules.main() Error : Traceback (most recent call last):
+  File "C:\Users\mmukhtar\Documents\python\Semester 7\Kamsis\url_rules.py", line 68, in rules_main
+    result_nlp = self.nlp_features(words_raw)
+  File "C:\Users\mmukhtar\Documents\python\Semester 7\Kamsis\url_rules.py", line 297, in nlp_features
+    splitted_words = self.word_splitter.splitl(grouped_words['len_gt_7'])
+AttributeError: 'WordSplitterClass' object has no attribute 'splitl'
+
+2020-12-30 17:31:36,860 - ERROR - url_rules.check_rule_11()-Alexa  /  Error : Traceback (most recent call last):
+  File "C:\Users\mmukhtar\Documents\python\Semester 7\Kamsis\url_rules.py", line 201, in alexa_check
+    alexa_txt = open("{0}{1}.txt".format(self.path_alexa_files, line[0]), "r")
+FileNotFoundError: [Errno 2] No such file or directory: '../data/alexa-tld/h.txt'
+
+2020-12-30 17:31:36,860 - ERROR - url_rules.check_rule_11()-Alexa  /  Error : Traceback (most recent call last):
+  File "C:\Users\mmukhtar\Documents\python\Semester 7\Kamsis\url_rules.py", line 201, in alexa_check
+    alexa_txt = open("{0}{1}.txt".format(self.path_alexa_files, line[0]), "r")
+FileNotFoundError: [Errno 2] No such file or directory: '../data/alexa-tld/h.txt'
+
+2020-12-30 17:31:37,513 - ERROR - url_rules.main() Error : Traceback (most recent call last):
+  File "C:\Users\mmukhtar\Documents\python\Semester 7\Kamsis\url_rules.py", line 68, in rules_main
+    result_nlp = self.nlp_features(words_raw)
+  File "C:\Users\mmukhtar\Documents\python\Semester 7\Kamsis\url_rules.py", line 297, in nlp_features
+    splitted_words = self.word_splitter.splitl(grouped_words['len_gt_7'])
+AttributeError: 'WordSplitterClass' object has no attribute 'splitl'
+
+2020-12-30 17:31:37,513 - ERROR - url_rules.main() Error : Traceback (most recent call last):
+  File "C:\Users\mmukhtar\Documents\python\Semester 7\Kamsis\url_rules.py", line 68, in rules_main
+    result_nlp = self.nlp_features(words_raw)
+  File "C:\Users\mmukhtar\Documents\python\Semester 7\Kamsis\url_rules.py", line 297, in nlp_features
+    splitted_words = self.word_splitter.splitl(grouped_words['len_gt_7'])
+AttributeError: 'WordSplitterClass' object has no attribute 'splitl'
+
+2020-12-30 17:31:37,550 - ERROR - url_rules.check_rule_11()-Alexa  /  Error : Traceback (most recent call last):
+  File "C:\Users\mmukhtar\Documents\python\Semester 7\Kamsis\url_rules.py", line 201, in alexa_check
+    alexa_txt = open("{0}{1}.txt".format(self.path_alexa_files, line[0]), "r")
+FileNotFoundError: [Errno 2] No such file or directory: '../data/alexa-tld/h.txt'
+
+2020-12-30 17:31:37,550 - ERROR - url_rules.check_rule_11()-Alexa  /  Error : Traceback (most recent call last):
+  File "C:\Users\mmukhtar\Documents\python\Semester 7\Kamsis\url_rules.py", line 201, in alexa_check
+    alexa_txt = open("{0}{1}.txt".format(self.path_alexa_files, line[0]), "r")
+FileNotFoundError: [Errno 2] No such file or directory: '../data/alexa-tld/h.txt'
+
+2020-12-30 17:31:37,885 - ERROR - url_rules.main() Error : Traceback (most recent call last):
+  File "C:\Users\mmukhtar\Documents\python\Semester 7\Kamsis\url_rules.py", line 68, in rules_main
+    result_nlp = self.nlp_features(words_raw)
+  File "C:\Users\mmukhtar\Documents\python\Semester 7\Kamsis\url_rules.py", line 297, in nlp_features
+    splitted_words = self.word_splitter.splitl(grouped_words['len_gt_7'])
+AttributeError: 'WordSplitterClass' object has no attribute 'splitl'
+
+2020-12-30 17:31:37,885 - ERROR - url_rules.main() Error : Traceback (most recent call last):
+  File "C:\Users\mmukhtar\Documents\python\Semester 7\Kamsis\url_rules.py", line 68, in rules_main
+    result_nlp = self.nlp_features(words_raw)
+  File "C:\Users\mmukhtar\Documents\python\Semester 7\Kamsis\url_rules.py", line 297, in nlp_features
+    splitted_words = self.word_splitter.splitl(grouped_words['len_gt_7'])
+AttributeError: 'WordSplitterClass' object has no attribute 'splitl'
+
+2020-12-30 17:31:37,924 - ERROR - url_rules.check_rule_11()-Alexa  /  Error : Traceback (most recent call last):
+  File "C:\Users\mmukhtar\Documents\python\Semester 7\Kamsis\url_rules.py", line 201, in alexa_check
+    alexa_txt = open("{0}{1}.txt".format(self.path_alexa_files, line[0]), "r")
+FileNotFoundError: [Errno 2] No such file or directory: '../data/alexa-tld/i.txt'
+
+2020-12-30 17:31:37,924 - ERROR - url_rules.check_rule_11()-Alexa  /  Error : Traceback (most recent call last):
+  File "C:\Users\mmukhtar\Documents\python\Semester 7\Kamsis\url_rules.py", line 201, in alexa_check
+    alexa_txt = open("{0}{1}.txt".format(self.path_alexa_files, line[0]), "r")
+FileNotFoundError: [Errno 2] No such file or directory: '../data/alexa-tld/i.txt'
+
+2020-12-30 17:31:38,267 - ERROR - url_rules.main() Error : Traceback (most recent call last):
+  File "C:\Users\mmukhtar\Documents\python\Semester 7\Kamsis\url_rules.py", line 68, in rules_main
+    result_nlp = self.nlp_features(words_raw)
+  File "C:\Users\mmukhtar\Documents\python\Semester 7\Kamsis\url_rules.py", line 297, in nlp_features
+    splitted_words = self.word_splitter.splitl(grouped_words['len_gt_7'])
+AttributeError: 'WordSplitterClass' object has no attribute 'splitl'
+
+2020-12-30 17:31:38,267 - ERROR - url_rules.main() Error : Traceback (most recent call last):
+  File "C:\Users\mmukhtar\Documents\python\Semester 7\Kamsis\url_rules.py", line 68, in rules_main
+    result_nlp = self.nlp_features(words_raw)
+  File "C:\Users\mmukhtar\Documents\python\Semester 7\Kamsis\url_rules.py", line 297, in nlp_features
+    splitted_words = self.word_splitter.splitl(grouped_words['len_gt_7'])
+AttributeError: 'WordSplitterClass' object has no attribute 'splitl'
+
+2020-12-30 17:31:38,306 - ERROR - url_rules.check_rule_11()-Alexa  /  Error : Traceback (most recent call last):
+  File "C:\Users\mmukhtar\Documents\python\Semester 7\Kamsis\url_rules.py", line 201, in alexa_check
+    alexa_txt = open("{0}{1}.txt".format(self.path_alexa_files, line[0]), "r")
+FileNotFoundError: [Errno 2] No such file or directory: '../data/alexa-tld/f.txt'
+
+2020-12-30 17:31:38,306 - ERROR - url_rules.check_rule_11()-Alexa  /  Error : Traceback (most recent call last):
+  File "C:\Users\mmukhtar\Documents\python\Semester 7\Kamsis\url_rules.py", line 201, in alexa_check
+    alexa_txt = open("{0}{1}.txt".format(self.path_alexa_files, line[0]), "r")
+FileNotFoundError: [Errno 2] No such file or directory: '../data/alexa-tld/f.txt'
+
+2020-12-30 17:31:38,492 - ERROR - url_rules.main() Error : Traceback (most recent call last):
+  File "C:\Users\mmukhtar\Documents\python\Semester 7\Kamsis\url_rules.py", line 68, in rules_main
+    result_nlp = self.nlp_features(words_raw)
+  File "C:\Users\mmukhtar\Documents\python\Semester 7\Kamsis\url_rules.py", line 297, in nlp_features
+    splitted_words = self.word_splitter.splitl(grouped_words['len_gt_7'])
+AttributeError: 'WordSplitterClass' object has no attribute 'splitl'
+
+2020-12-30 17:31:38,492 - ERROR - url_rules.main() Error : Traceback (most recent call last):
+  File "C:\Users\mmukhtar\Documents\python\Semester 7\Kamsis\url_rules.py", line 68, in rules_main
+    result_nlp = self.nlp_features(words_raw)
+  File "C:\Users\mmukhtar\Documents\python\Semester 7\Kamsis\url_rules.py", line 297, in nlp_features
+    splitted_words = self.word_splitter.splitl(grouped_words['len_gt_7'])
+AttributeError: 'WordSplitterClass' object has no attribute 'splitl'
+
+2020-12-30 17:31:38,525 - ERROR - url_rules.check_rule_11()-Alexa  /  Error : Traceback (most recent call last):
+  File "C:\Users\mmukhtar\Documents\python\Semester 7\Kamsis\url_rules.py", line 201, in alexa_check
+    alexa_txt = open("{0}{1}.txt".format(self.path_alexa_files, line[0]), "r")
+FileNotFoundError: [Errno 2] No such file or directory: '../data/alexa-tld/p.txt'
+
+2020-12-30 17:31:38,525 - ERROR - url_rules.check_rule_11()-Alexa  /  Error : Traceback (most recent call last):
+  File "C:\Users\mmukhtar\Documents\python\Semester 7\Kamsis\url_rules.py", line 201, in alexa_check
+    alexa_txt = open("{0}{1}.txt".format(self.path_alexa_files, line[0]), "r")
+FileNotFoundError: [Errno 2] No such file or directory: '../data/alexa-tld/p.txt'
+
+2020-12-30 17:31:38,666 - ERROR - url_rules.main() Error : Traceback (most recent call last):
+  File "C:\Users\mmukhtar\Documents\python\Semester 7\Kamsis\url_rules.py", line 68, in rules_main
+    result_nlp = self.nlp_features(words_raw)
+  File "C:\Users\mmukhtar\Documents\python\Semester 7\Kamsis\url_rules.py", line 297, in nlp_features
+    splitted_words = self.word_splitter.splitl(grouped_words['len_gt_7'])
+AttributeError: 'WordSplitterClass' object has no attribute 'splitl'
+
+2020-12-30 17:31:38,666 - ERROR - url_rules.main() Error : Traceback (most recent call last):
+  File "C:\Users\mmukhtar\Documents\python\Semester 7\Kamsis\url_rules.py", line 68, in rules_main
+    result_nlp = self.nlp_features(words_raw)
+  File "C:\Users\mmukhtar\Documents\python\Semester 7\Kamsis\url_rules.py", line 297, in nlp_features
+    splitted_words = self.word_splitter.splitl(grouped_words['len_gt_7'])
+AttributeError: 'WordSplitterClass' object has no attribute 'splitl'
+
+2020-12-30 17:31:38,697 - ERROR - url_rules.check_rule_11()-Alexa  /  Error : Traceback (most recent call last):
+  File "C:\Users\mmukhtar\Documents\python\Semester 7\Kamsis\url_rules.py", line 201, in alexa_check
+    alexa_txt = open("{0}{1}.txt".format(self.path_alexa_files, line[0]), "r")
+FileNotFoundError: [Errno 2] No such file or directory: '../data/alexa-tld/s.txt'
+
+2020-12-30 17:31:38,697 - ERROR - url_rules.check_rule_11()-Alexa  /  Error : Traceback (most recent call last):
+  File "C:\Users\mmukhtar\Documents\python\Semester 7\Kamsis\url_rules.py", line 201, in alexa_check
+    alexa_txt = open("{0}{1}.txt".format(self.path_alexa_files, line[0]), "r")
+FileNotFoundError: [Errno 2] No such file or directory: '../data/alexa-tld/s.txt'
+
+2020-12-30 17:31:38,700 - ERROR - url_rules.main() Error : Traceback (most recent call last):
+  File "C:\Users\mmukhtar\Documents\python\Semester 7\Kamsis\url_rules.py", line 68, in rules_main
+    result_nlp = self.nlp_features(words_raw)
+  File "C:\Users\mmukhtar\Documents\python\Semester 7\Kamsis\url_rules.py", line 297, in nlp_features
+    splitted_words = self.word_splitter.splitl(grouped_words['len_gt_7'])
+AttributeError: 'WordSplitterClass' object has no attribute 'splitl'
+
+2020-12-30 17:31:38,700 - ERROR - url_rules.main() Error : Traceback (most recent call last):
+  File "C:\Users\mmukhtar\Documents\python\Semester 7\Kamsis\url_rules.py", line 68, in rules_main
+    result_nlp = self.nlp_features(words_raw)
+  File "C:\Users\mmukhtar\Documents\python\Semester 7\Kamsis\url_rules.py", line 297, in nlp_features
+    splitted_words = self.word_splitter.splitl(grouped_words['len_gt_7'])
+AttributeError: 'WordSplitterClass' object has no attribute 'splitl'
+
+2020-12-30 17:31:38,735 - ERROR - url_rules.check_rule_11()-Alexa  /  Error : Traceback (most recent call last):
+  File "C:\Users\mmukhtar\Documents\python\Semester 7\Kamsis\url_rules.py", line 201, in alexa_check
+    alexa_txt = open("{0}{1}.txt".format(self.path_alexa_files, line[0]), "r")
+FileNotFoundError: [Errno 2] No such file or directory: '../data/alexa-tld/u.txt'
+
+2020-12-30 17:31:38,735 - ERROR - url_rules.check_rule_11()-Alexa  /  Error : Traceback (most recent call last):
+  File "C:\Users\mmukhtar\Documents\python\Semester 7\Kamsis\url_rules.py", line 201, in alexa_check
+    alexa_txt = open("{0}{1}.txt".format(self.path_alexa_files, line[0]), "r")
+FileNotFoundError: [Errno 2] No such file or directory: '../data/alexa-tld/u.txt'
+
+2020-12-30 17:31:38,914 - ERROR - url_rules.main() Error : Traceback (most recent call last):
+  File "C:\Users\mmukhtar\Documents\python\Semester 7\Kamsis\url_rules.py", line 68, in rules_main
+    result_nlp = self.nlp_features(words_raw)
+  File "C:\Users\mmukhtar\Documents\python\Semester 7\Kamsis\url_rules.py", line 297, in nlp_features
+    splitted_words = self.word_splitter.splitl(grouped_words['len_gt_7'])
+AttributeError: 'WordSplitterClass' object has no attribute 'splitl'
+
+2020-12-30 17:31:38,914 - ERROR - url_rules.main() Error : Traceback (most recent call last):
+  File "C:\Users\mmukhtar\Documents\python\Semester 7\Kamsis\url_rules.py", line 68, in rules_main
+    result_nlp = self.nlp_features(words_raw)
+  File "C:\Users\mmukhtar\Documents\python\Semester 7\Kamsis\url_rules.py", line 297, in nlp_features
+    splitted_words = self.word_splitter.splitl(grouped_words['len_gt_7'])
+AttributeError: 'WordSplitterClass' object has no attribute 'splitl'
+
+2020-12-30 17:33:54,114 - INFO - rule_extraction.extraction() is running
+2020-12-30 17:33:54,114 - INFO - rule_extraction.extraction() is running
+2020-12-30 17:33:54,123 - ERROR - Error : Traceback (most recent call last):
+  File "<ipython-input-11-aae01f1538a1>", line 31, in extraction
+    info['words_raw'])  # url kurallarin calistigi yer
+KeyError: 'words_raw'
+
+2020-12-30 17:33:54,123 - ERROR - Error : Traceback (most recent call last):
+  File "<ipython-input-11-aae01f1538a1>", line 31, in extraction
+    info['words_raw'])  # url kurallarin calistigi yer
+KeyError: 'words_raw'
+
+2020-12-30 17:33:58,459 - INFO - rule_extraction.extraction() is running
+2020-12-30 17:33:58,459 - INFO - rule_extraction.extraction() is running
+2020-12-30 17:33:58,468 - ERROR - Error : Traceback (most recent call last):
+  File "<ipython-input-11-aae01f1538a1>", line 31, in extraction
+    info['words_raw'])  # url kurallarin calistigi yer
+KeyError: 'words_raw'
+
+2020-12-30 17:33:58,468 - ERROR - Error : Traceback (most recent call last):
+  File "<ipython-input-11-aae01f1538a1>", line 31, in extraction
+    info['words_raw'])  # url kurallarin calistigi yer
+KeyError: 'words_raw'
+
+2020-12-30 17:34:02,642 - INFO - rule_extraction.extraction() is running
+2020-12-30 17:34:02,642 - INFO - rule_extraction.extraction() is running
+2020-12-30 17:34:02,658 - ERROR - Error : Traceback (most recent call last):
+  File "<ipython-input-11-aae01f1538a1>", line 31, in extraction
+    info['words_raw'])  # url kurallarin calistigi yer
+KeyError: 'words_raw'
+
+2020-12-30 17:34:02,658 - ERROR - Error : Traceback (most recent call last):
+  File "<ipython-input-11-aae01f1538a1>", line 31, in extraction
+    info['words_raw'])  # url kurallarin calistigi yer
+KeyError: 'words_raw'
+
+2020-12-30 17:34:08,974 - INFO - rule_extraction.extraction() is running
+2020-12-30 17:34:08,974 - INFO - rule_extraction.extraction() is running
+2020-12-30 17:34:08,981 - ERROR - Error : Traceback (most recent call last):
+  File "<ipython-input-11-aae01f1538a1>", line 31, in extraction
+    info['words_raw'])  # url kurallarin calistigi yer
+KeyError: 'words_raw'
+
+2020-12-30 17:34:08,981 - ERROR - Error : Traceback (most recent call last):
+  File "<ipython-input-11-aae01f1538a1>", line 31, in extraction
+    info['words_raw'])  # url kurallarin calistigi yer
+KeyError: 'words_raw'
+
+2020-12-30 17:34:15,343 - INFO - rule_extraction.extraction() is running
+2020-12-30 17:34:15,343 - INFO - rule_extraction.extraction() is running
+2020-12-30 17:34:15,372 - ERROR - url_rules.check_rule_11()-Alexa  /  Error : Traceback (most recent call last):
+  File "C:\Users\mmukhtar\Documents\python\Semester 7\Kamsis\url_rules.py", line 201, in alexa_check
+    alexa_txt = open("{0}{1}.txt".format(self.path_alexa_files, line[0]), "r")
+FileNotFoundError: [Errno 2] No such file or directory: '../data/alexa-tld/a.txt'
+
+2020-12-30 17:34:15,372 - ERROR - url_rules.check_rule_11()-Alexa  /  Error : Traceback (most recent call last):
+  File "C:\Users\mmukhtar\Documents\python\Semester 7\Kamsis\url_rules.py", line 201, in alexa_check
+    alexa_txt = open("{0}{1}.txt".format(self.path_alexa_files, line[0]), "r")
+FileNotFoundError: [Errno 2] No such file or directory: '../data/alexa-tld/a.txt'
+
+2020-12-30 17:34:15,523 - ERROR - url_rules.main() Error : Traceback (most recent call last):
+  File "C:\Users\mmukhtar\Documents\python\Semester 7\Kamsis\url_rules.py", line 68, in rules_main
+    result_nlp = self.nlp_features(words_raw)
+  File "C:\Users\mmukhtar\Documents\python\Semester 7\Kamsis\url_rules.py", line 297, in nlp_features
+    splitted_words = self.word_splitter.splitl(grouped_words['len_gt_7'])
+AttributeError: 'WordSplitterClass' object has no attribute 'splitl'
+
+2020-12-30 17:34:15,523 - ERROR - url_rules.main() Error : Traceback (most recent call last):
+  File "C:\Users\mmukhtar\Documents\python\Semester 7\Kamsis\url_rules.py", line 68, in rules_main
+    result_nlp = self.nlp_features(words_raw)
+  File "C:\Users\mmukhtar\Documents\python\Semester 7\Kamsis\url_rules.py", line 297, in nlp_features
+    splitted_words = self.word_splitter.splitl(grouped_words['len_gt_7'])
+AttributeError: 'WordSplitterClass' object has no attribute 'splitl'
+
+2020-12-30 17:34:15,571 - ERROR - url_rules.check_rule_11()-Alexa  /  Error : Traceback (most recent call last):
+  File "C:\Users\mmukhtar\Documents\python\Semester 7\Kamsis\url_rules.py", line 201, in alexa_check
+    alexa_txt = open("{0}{1}.txt".format(self.path_alexa_files, line[0]), "r")
+FileNotFoundError: [Errno 2] No such file or directory: '../data/alexa-tld/s.txt'
+
+2020-12-30 17:34:15,571 - ERROR - url_rules.check_rule_11()-Alexa  /  Error : Traceback (most recent call last):
+  File "C:\Users\mmukhtar\Documents\python\Semester 7\Kamsis\url_rules.py", line 201, in alexa_check
+    alexa_txt = open("{0}{1}.txt".format(self.path_alexa_files, line[0]), "r")
+FileNotFoundError: [Errno 2] No such file or directory: '../data/alexa-tld/s.txt'
+
+2020-12-30 17:34:15,635 - ERROR - url_rules.main() Error : Traceback (most recent call last):
+  File "C:\Users\mmukhtar\Documents\python\Semester 7\Kamsis\url_rules.py", line 68, in rules_main
+    result_nlp = self.nlp_features(words_raw)
+  File "C:\Users\mmukhtar\Documents\python\Semester 7\Kamsis\url_rules.py", line 297, in nlp_features
+    splitted_words = self.word_splitter.splitl(grouped_words['len_gt_7'])
+AttributeError: 'WordSplitterClass' object has no attribute 'splitl'
+
+2020-12-30 17:34:15,635 - ERROR - url_rules.main() Error : Traceback (most recent call last):
+  File "C:\Users\mmukhtar\Documents\python\Semester 7\Kamsis\url_rules.py", line 68, in rules_main
+    result_nlp = self.nlp_features(words_raw)
+  File "C:\Users\mmukhtar\Documents\python\Semester 7\Kamsis\url_rules.py", line 297, in nlp_features
+    splitted_words = self.word_splitter.splitl(grouped_words['len_gt_7'])
+AttributeError: 'WordSplitterClass' object has no attribute 'splitl'
+
+2020-12-30 17:34:15,674 - ERROR - url_rules.check_rule_11()-Alexa  /  Error : Traceback (most recent call last):
+  File "C:\Users\mmukhtar\Documents\python\Semester 7\Kamsis\url_rules.py", line 201, in alexa_check
+    alexa_txt = open("{0}{1}.txt".format(self.path_alexa_files, line[0]), "r")
+FileNotFoundError: [Errno 2] No such file or directory: '../data/alexa-tld/h.txt'
+
+2020-12-30 17:34:15,674 - ERROR - url_rules.check_rule_11()-Alexa  /  Error : Traceback (most recent call last):
+  File "C:\Users\mmukhtar\Documents\python\Semester 7\Kamsis\url_rules.py", line 201, in alexa_check
+    alexa_txt = open("{0}{1}.txt".format(self.path_alexa_files, line[0]), "r")
+FileNotFoundError: [Errno 2] No such file or directory: '../data/alexa-tld/h.txt'
+
+2020-12-30 17:34:16,295 - ERROR - url_rules.main() Error : Traceback (most recent call last):
+  File "C:\Users\mmukhtar\Documents\python\Semester 7\Kamsis\url_rules.py", line 68, in rules_main
+    result_nlp = self.nlp_features(words_raw)
+  File "C:\Users\mmukhtar\Documents\python\Semester 7\Kamsis\url_rules.py", line 297, in nlp_features
+    splitted_words = self.word_splitter.splitl(grouped_words['len_gt_7'])
+AttributeError: 'WordSplitterClass' object has no attribute 'splitl'
+
+2020-12-30 17:34:16,295 - ERROR - url_rules.main() Error : Traceback (most recent call last):
+  File "C:\Users\mmukhtar\Documents\python\Semester 7\Kamsis\url_rules.py", line 68, in rules_main
+    result_nlp = self.nlp_features(words_raw)
+  File "C:\Users\mmukhtar\Documents\python\Semester 7\Kamsis\url_rules.py", line 297, in nlp_features
+    splitted_words = self.word_splitter.splitl(grouped_words['len_gt_7'])
+AttributeError: 'WordSplitterClass' object has no attribute 'splitl'
+
+2020-12-30 17:34:16,345 - ERROR - url_rules.check_rule_11()-Alexa  /  Error : Traceback (most recent call last):
+  File "C:\Users\mmukhtar\Documents\python\Semester 7\Kamsis\url_rules.py", line 201, in alexa_check
+    alexa_txt = open("{0}{1}.txt".format(self.path_alexa_files, line[0]), "r")
+FileNotFoundError: [Errno 2] No such file or directory: '../data/alexa-tld/h.txt'
+
+2020-12-30 17:34:16,345 - ERROR - url_rules.check_rule_11()-Alexa  /  Error : Traceback (most recent call last):
+  File "C:\Users\mmukhtar\Documents\python\Semester 7\Kamsis\url_rules.py", line 201, in alexa_check
+    alexa_txt = open("{0}{1}.txt".format(self.path_alexa_files, line[0]), "r")
+FileNotFoundError: [Errno 2] No such file or directory: '../data/alexa-tld/h.txt'
+
+2020-12-30 17:34:17,084 - ERROR - url_rules.main() Error : Traceback (most recent call last):
+  File "C:\Users\mmukhtar\Documents\python\Semester 7\Kamsis\url_rules.py", line 68, in rules_main
+    result_nlp = self.nlp_features(words_raw)
+  File "C:\Users\mmukhtar\Documents\python\Semester 7\Kamsis\url_rules.py", line 297, in nlp_features
+    splitted_words = self.word_splitter.splitl(grouped_words['len_gt_7'])
+AttributeError: 'WordSplitterClass' object has no attribute 'splitl'
+
+2020-12-30 17:34:17,084 - ERROR - url_rules.main() Error : Traceback (most recent call last):
+  File "C:\Users\mmukhtar\Documents\python\Semester 7\Kamsis\url_rules.py", line 68, in rules_main
+    result_nlp = self.nlp_features(words_raw)
+  File "C:\Users\mmukhtar\Documents\python\Semester 7\Kamsis\url_rules.py", line 297, in nlp_features
+    splitted_words = self.word_splitter.splitl(grouped_words['len_gt_7'])
+AttributeError: 'WordSplitterClass' object has no attribute 'splitl'
+
+2020-12-30 17:34:35,142 - INFO - rule_extraction.extraction() is running
+2020-12-30 17:34:35,142 - INFO - rule_extraction.extraction() is running
+2020-12-30 17:34:35,151 - ERROR - Error : Traceback (most recent call last):
+  File "<ipython-input-11-aae01f1538a1>", line 31, in extraction
+    info['words_raw'])  # url kurallarin calistigi yer
+KeyError: 'words_raw'
+
+2020-12-30 17:34:35,151 - ERROR - Error : Traceback (most recent call last):
+  File "<ipython-input-11-aae01f1538a1>", line 31, in extraction
+    info['words_raw'])  # url kurallarin calistigi yer
+KeyError: 'words_raw'
+
+2020-12-30 17:34:40,488 - INFO - rule_extraction.extraction() is running
+2020-12-30 17:34:40,488 - INFO - rule_extraction.extraction() is running
+2020-12-30 17:34:40,513 - ERROR - url_rules.check_rule_11()-Alexa  /  Error : Traceback (most recent call last):
+  File "C:\Users\mmukhtar\Documents\python\Semester 7\Kamsis\url_rules.py", line 201, in alexa_check
+    alexa_txt = open("{0}{1}.txt".format(self.path_alexa_files, line[0]), "r")
+FileNotFoundError: [Errno 2] No such file or directory: '../data/alexa-tld/a.txt'
+
+2020-12-30 17:34:40,513 - ERROR - url_rules.check_rule_11()-Alexa  /  Error : Traceback (most recent call last):
+  File "C:\Users\mmukhtar\Documents\python\Semester 7\Kamsis\url_rules.py", line 201, in alexa_check
+    alexa_txt = open("{0}{1}.txt".format(self.path_alexa_files, line[0]), "r")
+FileNotFoundError: [Errno 2] No such file or directory: '../data/alexa-tld/a.txt'
+
+2020-12-30 17:34:40,656 - ERROR - url_rules.main() Error : Traceback (most recent call last):
+  File "C:\Users\mmukhtar\Documents\python\Semester 7\Kamsis\url_rules.py", line 68, in rules_main
+    result_nlp = self.nlp_features(words_raw)
+  File "C:\Users\mmukhtar\Documents\python\Semester 7\Kamsis\url_rules.py", line 297, in nlp_features
+    splitted_words = self.word_splitter.splitl(grouped_words['len_gt_7'])
+AttributeError: 'WordSplitterClass' object has no attribute 'splitl'
+
+2020-12-30 17:34:40,656 - ERROR - url_rules.main() Error : Traceback (most recent call last):
+  File "C:\Users\mmukhtar\Documents\python\Semester 7\Kamsis\url_rules.py", line 68, in rules_main
+    result_nlp = self.nlp_features(words_raw)
+  File "C:\Users\mmukhtar\Documents\python\Semester 7\Kamsis\url_rules.py", line 297, in nlp_features
+    splitted_words = self.word_splitter.splitl(grouped_words['len_gt_7'])
+AttributeError: 'WordSplitterClass' object has no attribute 'splitl'
+
+2020-12-30 17:34:40,701 - ERROR - url_rules.check_rule_11()-Alexa  /  Error : Traceback (most recent call last):
+  File "C:\Users\mmukhtar\Documents\python\Semester 7\Kamsis\url_rules.py", line 201, in alexa_check
+    alexa_txt = open("{0}{1}.txt".format(self.path_alexa_files, line[0]), "r")
+FileNotFoundError: [Errno 2] No such file or directory: '../data/alexa-tld/s.txt'
+
+2020-12-30 17:34:40,701 - ERROR - url_rules.check_rule_11()-Alexa  /  Error : Traceback (most recent call last):
+  File "C:\Users\mmukhtar\Documents\python\Semester 7\Kamsis\url_rules.py", line 201, in alexa_check
+    alexa_txt = open("{0}{1}.txt".format(self.path_alexa_files, line[0]), "r")
+FileNotFoundError: [Errno 2] No such file or directory: '../data/alexa-tld/s.txt'
+
+2020-12-30 17:34:40,753 - ERROR - url_rules.main() Error : Traceback (most recent call last):
+  File "C:\Users\mmukhtar\Documents\python\Semester 7\Kamsis\url_rules.py", line 68, in rules_main
+    result_nlp = self.nlp_features(words_raw)
+  File "C:\Users\mmukhtar\Documents\python\Semester 7\Kamsis\url_rules.py", line 297, in nlp_features
+    splitted_words = self.word_splitter.splitl(grouped_words['len_gt_7'])
+AttributeError: 'WordSplitterClass' object has no attribute 'splitl'
+
+2020-12-30 17:34:40,753 - ERROR - url_rules.main() Error : Traceback (most recent call last):
+  File "C:\Users\mmukhtar\Documents\python\Semester 7\Kamsis\url_rules.py", line 68, in rules_main
+    result_nlp = self.nlp_features(words_raw)
+  File "C:\Users\mmukhtar\Documents\python\Semester 7\Kamsis\url_rules.py", line 297, in nlp_features
+    splitted_words = self.word_splitter.splitl(grouped_words['len_gt_7'])
+AttributeError: 'WordSplitterClass' object has no attribute 'splitl'
+
+2020-12-30 17:34:40,781 - ERROR - url_rules.check_rule_11()-Alexa  /  Error : Traceback (most recent call last):
+  File "C:\Users\mmukhtar\Documents\python\Semester 7\Kamsis\url_rules.py", line 201, in alexa_check
+    alexa_txt = open("{0}{1}.txt".format(self.path_alexa_files, line[0]), "r")
+FileNotFoundError: [Errno 2] No such file or directory: '../data/alexa-tld/h.txt'
+
+2020-12-30 17:34:40,781 - ERROR - url_rules.check_rule_11()-Alexa  /  Error : Traceback (most recent call last):
+  File "C:\Users\mmukhtar\Documents\python\Semester 7\Kamsis\url_rules.py", line 201, in alexa_check
+    alexa_txt = open("{0}{1}.txt".format(self.path_alexa_files, line[0]), "r")
+FileNotFoundError: [Errno 2] No such file or directory: '../data/alexa-tld/h.txt'
+
+2020-12-30 17:34:41,306 - ERROR - url_rules.main() Error : Traceback (most recent call last):
+  File "C:\Users\mmukhtar\Documents\python\Semester 7\Kamsis\url_rules.py", line 68, in rules_main
+    result_nlp = self.nlp_features(words_raw)
+  File "C:\Users\mmukhtar\Documents\python\Semester 7\Kamsis\url_rules.py", line 297, in nlp_features
+    splitted_words = self.word_splitter.splitl(grouped_words['len_gt_7'])
+AttributeError: 'WordSplitterClass' object has no attribute 'splitl'
+
+2020-12-30 17:34:41,306 - ERROR - url_rules.main() Error : Traceback (most recent call last):
+  File "C:\Users\mmukhtar\Documents\python\Semester 7\Kamsis\url_rules.py", line 68, in rules_main
+    result_nlp = self.nlp_features(words_raw)
+  File "C:\Users\mmukhtar\Documents\python\Semester 7\Kamsis\url_rules.py", line 297, in nlp_features
+    splitted_words = self.word_splitter.splitl(grouped_words['len_gt_7'])
+AttributeError: 'WordSplitterClass' object has no attribute 'splitl'
+
+2020-12-30 17:34:41,342 - ERROR - url_rules.check_rule_11()-Alexa  /  Error : Traceback (most recent call last):
+  File "C:\Users\mmukhtar\Documents\python\Semester 7\Kamsis\url_rules.py", line 201, in alexa_check
+    alexa_txt = open("{0}{1}.txt".format(self.path_alexa_files, line[0]), "r")
+FileNotFoundError: [Errno 2] No such file or directory: '../data/alexa-tld/h.txt'
+
+2020-12-30 17:34:41,342 - ERROR - url_rules.check_rule_11()-Alexa  /  Error : Traceback (most recent call last):
+  File "C:\Users\mmukhtar\Documents\python\Semester 7\Kamsis\url_rules.py", line 201, in alexa_check
+    alexa_txt = open("{0}{1}.txt".format(self.path_alexa_files, line[0]), "r")
+FileNotFoundError: [Errno 2] No such file or directory: '../data/alexa-tld/h.txt'
+
+2020-12-30 17:34:41,982 - ERROR - url_rules.main() Error : Traceback (most recent call last):
+  File "C:\Users\mmukhtar\Documents\python\Semester 7\Kamsis\url_rules.py", line 68, in rules_main
+    result_nlp = self.nlp_features(words_raw)
+  File "C:\Users\mmukhtar\Documents\python\Semester 7\Kamsis\url_rules.py", line 297, in nlp_features
+    splitted_words = self.word_splitter.splitl(grouped_words['len_gt_7'])
+AttributeError: 'WordSplitterClass' object has no attribute 'splitl'
+
+2020-12-30 17:34:41,982 - ERROR - url_rules.main() Error : Traceback (most recent call last):
+  File "C:\Users\mmukhtar\Documents\python\Semester 7\Kamsis\url_rules.py", line 68, in rules_main
+    result_nlp = self.nlp_features(words_raw)
+  File "C:\Users\mmukhtar\Documents\python\Semester 7\Kamsis\url_rules.py", line 297, in nlp_features
+    splitted_words = self.word_splitter.splitl(grouped_words['len_gt_7'])
+AttributeError: 'WordSplitterClass' object has no attribute 'splitl'
+
+2020-12-30 17:35:54,508 - INFO - rule_extraction.extraction() is running
+2020-12-30 17:35:54,508 - INFO - rule_extraction.extraction() is running
+2020-12-30 17:35:54,541 - ERROR - url_rules.check_rule_11()-Alexa  /  Error : Traceback (most recent call last):
+  File "C:\Users\mmukhtar\Documents\python\Semester 7\Kamsis\url_rules.py", line 201, in alexa_check
+    alexa_txt = open("{0}{1}.txt".format(self.path_alexa_files, line[0]), "r")
+FileNotFoundError: [Errno 2] No such file or directory: '../data/alexa-tld/a.txt'
+
+2020-12-30 17:35:54,541 - ERROR - url_rules.check_rule_11()-Alexa  /  Error : Traceback (most recent call last):
+  File "C:\Users\mmukhtar\Documents\python\Semester 7\Kamsis\url_rules.py", line 201, in alexa_check
+    alexa_txt = open("{0}{1}.txt".format(self.path_alexa_files, line[0]), "r")
+FileNotFoundError: [Errno 2] No such file or directory: '../data/alexa-tld/a.txt'
+
+2020-12-30 17:35:54,685 - ERROR - url_rules.main() Error : Traceback (most recent call last):
+  File "C:\Users\mmukhtar\Documents\python\Semester 7\Kamsis\url_rules.py", line 68, in rules_main
+    result_nlp = self.nlp_features(words_raw)
+  File "C:\Users\mmukhtar\Documents\python\Semester 7\Kamsis\url_rules.py", line 297, in nlp_features
+    splitted_words = self.word_splitter.splitl(grouped_words['len_gt_7'])
+AttributeError: 'WordSplitterClass' object has no attribute 'splitl'
+
+2020-12-30 17:35:54,685 - ERROR - url_rules.main() Error : Traceback (most recent call last):
+  File "C:\Users\mmukhtar\Documents\python\Semester 7\Kamsis\url_rules.py", line 68, in rules_main
+    result_nlp = self.nlp_features(words_raw)
+  File "C:\Users\mmukhtar\Documents\python\Semester 7\Kamsis\url_rules.py", line 297, in nlp_features
+    splitted_words = self.word_splitter.splitl(grouped_words['len_gt_7'])
+AttributeError: 'WordSplitterClass' object has no attribute 'splitl'
+
+2020-12-30 17:35:54,740 - ERROR - url_rules.check_rule_11()-Alexa  /  Error : Traceback (most recent call last):
+  File "C:\Users\mmukhtar\Documents\python\Semester 7\Kamsis\url_rules.py", line 201, in alexa_check
+    alexa_txt = open("{0}{1}.txt".format(self.path_alexa_files, line[0]), "r")
+FileNotFoundError: [Errno 2] No such file or directory: '../data/alexa-tld/s.txt'
+
+2020-12-30 17:35:54,740 - ERROR - url_rules.check_rule_11()-Alexa  /  Error : Traceback (most recent call last):
+  File "C:\Users\mmukhtar\Documents\python\Semester 7\Kamsis\url_rules.py", line 201, in alexa_check
+    alexa_txt = open("{0}{1}.txt".format(self.path_alexa_files, line[0]), "r")
+FileNotFoundError: [Errno 2] No such file or directory: '../data/alexa-tld/s.txt'
+
+2020-12-30 17:35:54,788 - ERROR - url_rules.main() Error : Traceback (most recent call last):
+  File "C:\Users\mmukhtar\Documents\python\Semester 7\Kamsis\url_rules.py", line 68, in rules_main
+    result_nlp = self.nlp_features(words_raw)
+  File "C:\Users\mmukhtar\Documents\python\Semester 7\Kamsis\url_rules.py", line 297, in nlp_features
+    splitted_words = self.word_splitter.splitl(grouped_words['len_gt_7'])
+AttributeError: 'WordSplitterClass' object has no attribute 'splitl'
+
+2020-12-30 17:35:54,788 - ERROR - url_rules.main() Error : Traceback (most recent call last):
+  File "C:\Users\mmukhtar\Documents\python\Semester 7\Kamsis\url_rules.py", line 68, in rules_main
+    result_nlp = self.nlp_features(words_raw)
+  File "C:\Users\mmukhtar\Documents\python\Semester 7\Kamsis\url_rules.py", line 297, in nlp_features
+    splitted_words = self.word_splitter.splitl(grouped_words['len_gt_7'])
+AttributeError: 'WordSplitterClass' object has no attribute 'splitl'
+
+2020-12-30 17:35:54,824 - ERROR - url_rules.check_rule_11()-Alexa  /  Error : Traceback (most recent call last):
+  File "C:\Users\mmukhtar\Documents\python\Semester 7\Kamsis\url_rules.py", line 201, in alexa_check
+    alexa_txt = open("{0}{1}.txt".format(self.path_alexa_files, line[0]), "r")
+FileNotFoundError: [Errno 2] No such file or directory: '../data/alexa-tld/h.txt'
+
+2020-12-30 17:35:54,824 - ERROR - url_rules.check_rule_11()-Alexa  /  Error : Traceback (most recent call last):
+  File "C:\Users\mmukhtar\Documents\python\Semester 7\Kamsis\url_rules.py", line 201, in alexa_check
+    alexa_txt = open("{0}{1}.txt".format(self.path_alexa_files, line[0]), "r")
+FileNotFoundError: [Errno 2] No such file or directory: '../data/alexa-tld/h.txt'
+
+2020-12-30 17:35:55,362 - ERROR - url_rules.main() Error : Traceback (most recent call last):
+  File "C:\Users\mmukhtar\Documents\python\Semester 7\Kamsis\url_rules.py", line 68, in rules_main
+    result_nlp = self.nlp_features(words_raw)
+  File "C:\Users\mmukhtar\Documents\python\Semester 7\Kamsis\url_rules.py", line 297, in nlp_features
+    splitted_words = self.word_splitter.splitl(grouped_words['len_gt_7'])
+AttributeError: 'WordSplitterClass' object has no attribute 'splitl'
+
+2020-12-30 17:35:55,362 - ERROR - url_rules.main() Error : Traceback (most recent call last):
+  File "C:\Users\mmukhtar\Documents\python\Semester 7\Kamsis\url_rules.py", line 68, in rules_main
+    result_nlp = self.nlp_features(words_raw)
+  File "C:\Users\mmukhtar\Documents\python\Semester 7\Kamsis\url_rules.py", line 297, in nlp_features
+    splitted_words = self.word_splitter.splitl(grouped_words['len_gt_7'])
+AttributeError: 'WordSplitterClass' object has no attribute 'splitl'
+
+2020-12-30 17:35:55,395 - ERROR - url_rules.check_rule_11()-Alexa  /  Error : Traceback (most recent call last):
+  File "C:\Users\mmukhtar\Documents\python\Semester 7\Kamsis\url_rules.py", line 201, in alexa_check
+    alexa_txt = open("{0}{1}.txt".format(self.path_alexa_files, line[0]), "r")
+FileNotFoundError: [Errno 2] No such file or directory: '../data/alexa-tld/h.txt'
+
+2020-12-30 17:35:55,395 - ERROR - url_rules.check_rule_11()-Alexa  /  Error : Traceback (most recent call last):
+  File "C:\Users\mmukhtar\Documents\python\Semester 7\Kamsis\url_rules.py", line 201, in alexa_check
+    alexa_txt = open("{0}{1}.txt".format(self.path_alexa_files, line[0]), "r")
+FileNotFoundError: [Errno 2] No such file or directory: '../data/alexa-tld/h.txt'
+
+2020-12-30 17:35:56,033 - ERROR - url_rules.main() Error : Traceback (most recent call last):
+  File "C:\Users\mmukhtar\Documents\python\Semester 7\Kamsis\url_rules.py", line 68, in rules_main
+    result_nlp = self.nlp_features(words_raw)
+  File "C:\Users\mmukhtar\Documents\python\Semester 7\Kamsis\url_rules.py", line 297, in nlp_features
+    splitted_words = self.word_splitter.splitl(grouped_words['len_gt_7'])
+AttributeError: 'WordSplitterClass' object has no attribute 'splitl'
+
+2020-12-30 17:35:56,033 - ERROR - url_rules.main() Error : Traceback (most recent call last):
+  File "C:\Users\mmukhtar\Documents\python\Semester 7\Kamsis\url_rules.py", line 68, in rules_main
+    result_nlp = self.nlp_features(words_raw)
+  File "C:\Users\mmukhtar\Documents\python\Semester 7\Kamsis\url_rules.py", line 297, in nlp_features
+    splitted_words = self.word_splitter.splitl(grouped_words['len_gt_7'])
+AttributeError: 'WordSplitterClass' object has no attribute 'splitl'
+
+2020-12-30 17:36:15,977 - INFO - rule_extraction.extraction() is running
+2020-12-30 17:36:15,977 - INFO - rule_extraction.extraction() is running
+2020-12-30 17:36:16,162 - ERROR - url_rules.main() Error : Traceback (most recent call last):
+  File "C:\Users\mmukhtar\Documents\python\Semester 7\Kamsis\url_rules.py", line 68, in rules_main
+    result_nlp = self.nlp_features(words_raw)
+  File "C:\Users\mmukhtar\Documents\python\Semester 7\Kamsis\url_rules.py", line 297, in nlp_features
+    splitted_words = self.word_splitter.splitl(grouped_words['len_gt_7'])
+AttributeError: 'WordSplitterClass' object has no attribute 'splitl'
+
+2020-12-30 17:36:16,162 - ERROR - url_rules.main() Error : Traceback (most recent call last):
+  File "C:\Users\mmukhtar\Documents\python\Semester 7\Kamsis\url_rules.py", line 68, in rules_main
+    result_nlp = self.nlp_features(words_raw)
+  File "C:\Users\mmukhtar\Documents\python\Semester 7\Kamsis\url_rules.py", line 297, in nlp_features
+    splitted_words = self.word_splitter.splitl(grouped_words['len_gt_7'])
+AttributeError: 'WordSplitterClass' object has no attribute 'splitl'
+
+2020-12-30 17:36:16,226 - ERROR - url_rules.main() Error : Traceback (most recent call last):
+  File "C:\Users\mmukhtar\Documents\python\Semester 7\Kamsis\url_rules.py", line 68, in rules_main
+    result_nlp = self.nlp_features(words_raw)
+  File "C:\Users\mmukhtar\Documents\python\Semester 7\Kamsis\url_rules.py", line 297, in nlp_features
+    splitted_words = self.word_splitter.splitl(grouped_words['len_gt_7'])
+AttributeError: 'WordSplitterClass' object has no attribute 'splitl'
+
+2020-12-30 17:36:16,226 - ERROR - url_rules.main() Error : Traceback (most recent call last):
+  File "C:\Users\mmukhtar\Documents\python\Semester 7\Kamsis\url_rules.py", line 68, in rules_main
+    result_nlp = self.nlp_features(words_raw)
+  File "C:\Users\mmukhtar\Documents\python\Semester 7\Kamsis\url_rules.py", line 297, in nlp_features
+    splitted_words = self.word_splitter.splitl(grouped_words['len_gt_7'])
+AttributeError: 'WordSplitterClass' object has no attribute 'splitl'
+
+2020-12-30 17:36:16,791 - ERROR - url_rules.main() Error : Traceback (most recent call last):
+  File "C:\Users\mmukhtar\Documents\python\Semester 7\Kamsis\url_rules.py", line 68, in rules_main
+    result_nlp = self.nlp_features(words_raw)
+  File "C:\Users\mmukhtar\Documents\python\Semester 7\Kamsis\url_rules.py", line 297, in nlp_features
+    splitted_words = self.word_splitter.splitl(grouped_words['len_gt_7'])
+AttributeError: 'WordSplitterClass' object has no attribute 'splitl'
+
+2020-12-30 17:36:16,791 - ERROR - url_rules.main() Error : Traceback (most recent call last):
+  File "C:\Users\mmukhtar\Documents\python\Semester 7\Kamsis\url_rules.py", line 68, in rules_main
+    result_nlp = self.nlp_features(words_raw)
+  File "C:\Users\mmukhtar\Documents\python\Semester 7\Kamsis\url_rules.py", line 297, in nlp_features
+    splitted_words = self.word_splitter.splitl(grouped_words['len_gt_7'])
+AttributeError: 'WordSplitterClass' object has no attribute 'splitl'
+
+2020-12-30 17:36:17,340 - ERROR - url_rules.main() Error : Traceback (most recent call last):
+  File "C:\Users\mmukhtar\Documents\python\Semester 7\Kamsis\url_rules.py", line 68, in rules_main
+    result_nlp = self.nlp_features(words_raw)
+  File "C:\Users\mmukhtar\Documents\python\Semester 7\Kamsis\url_rules.py", line 297, in nlp_features
+    splitted_words = self.word_splitter.splitl(grouped_words['len_gt_7'])
+AttributeError: 'WordSplitterClass' object has no attribute 'splitl'
+
+2020-12-30 17:36:17,340 - ERROR - url_rules.main() Error : Traceback (most recent call last):
+  File "C:\Users\mmukhtar\Documents\python\Semester 7\Kamsis\url_rules.py", line 68, in rules_main
+    result_nlp = self.nlp_features(words_raw)
+  File "C:\Users\mmukhtar\Documents\python\Semester 7\Kamsis\url_rules.py", line 297, in nlp_features
+    splitted_words = self.word_splitter.splitl(grouped_words['len_gt_7'])
+AttributeError: 'WordSplitterClass' object has no attribute 'splitl'
+
+2020-12-30 17:37:32,754 - INFO - rule_extraction.extraction() is running
+2020-12-30 17:37:32,754 - INFO - rule_extraction.extraction() is running
+2020-12-30 17:42:25,466 - INFO - rule_extraction.extraction() is running
+2020-12-30 17:42:25,466 - INFO - rule_extraction.extraction() is running
+2020-12-30 17:50:35,793 - INFO - rule_extraction.extraction() is running
+2020-12-30 17:50:35,793 - INFO - rule_extraction.extraction() is running
+2020-12-30 17:50:35,885 - ERROR - Error : Traceback (most recent call last):
+  File "C:\Users\mmukhtar\Documents\python\Semester 7\Kamsis\word_with_nlp.py", line 70, in parse
+    elif self.__is_similar_to_any_element(word, self.allbrand) != 0:
+  File "C:\Users\mmukhtar\Documents\python\Semester 7\Kamsis\word_with_nlp.py", line 42, in __is_similar_to_any_element
+    if editdistance.eval(word, l) < 2:
+AttributeError: module 'editdistance' has no attribute 'eval'
+
+2020-12-30 17:50:35,885 - ERROR - Error : Traceback (most recent call last):
+  File "C:\Users\mmukhtar\Documents\python\Semester 7\Kamsis\word_with_nlp.py", line 70, in parse
+    elif self.__is_similar_to_any_element(word, self.allbrand) != 0:
+  File "C:\Users\mmukhtar\Documents\python\Semester 7\Kamsis\word_with_nlp.py", line 42, in __is_similar_to_any_element
+    if editdistance.eval(word, l) < 2:
+AttributeError: module 'editdistance' has no attribute 'eval'
+
+2020-12-30 17:50:35,890 - ERROR - url_rules.main() Error : Traceback (most recent call last):
+  File "C:\Users\mmukhtar\Documents\python\Semester 7\Kamsis\url_rules.py", line 68, in rules_main
+    result_nlp = self.nlp_features(words_raw)
+  File "C:\Users\mmukhtar\Documents\python\Semester 7\Kamsis\url_rules.py", line 296, in nlp_features
+    grouped_words = self.nlp_manager.parse(words_raw)
+  File "C:\Users\mmukhtar\Documents\python\Semester 7\Kamsis\word_with_nlp.py", line 95, in parse
+    return result
+UnboundLocalError: local variable 'result' referenced before assignment
+
+2020-12-30 17:50:35,890 - ERROR - url_rules.main() Error : Traceback (most recent call last):
+  File "C:\Users\mmukhtar\Documents\python\Semester 7\Kamsis\url_rules.py", line 68, in rules_main
+    result_nlp = self.nlp_features(words_raw)
+  File "C:\Users\mmukhtar\Documents\python\Semester 7\Kamsis\url_rules.py", line 296, in nlp_features
+    grouped_words = self.nlp_manager.parse(words_raw)
+  File "C:\Users\mmukhtar\Documents\python\Semester 7\Kamsis\word_with_nlp.py", line 95, in parse
+    return result
+UnboundLocalError: local variable 'result' referenced before assignment
+
+2020-12-30 17:50:35,911 - ERROR - Error : Traceback (most recent call last):
+  File "C:\Users\mmukhtar\Documents\python\Semester 7\Kamsis\word_with_nlp.py", line 70, in parse
+    elif self.__is_similar_to_any_element(word, self.allbrand) != 0:
+  File "C:\Users\mmukhtar\Documents\python\Semester 7\Kamsis\word_with_nlp.py", line 42, in __is_similar_to_any_element
+    if editdistance.eval(word, l) < 2:
+AttributeError: module 'editdistance' has no attribute 'eval'
+
+2020-12-30 17:50:35,911 - ERROR - Error : Traceback (most recent call last):
+  File "C:\Users\mmukhtar\Documents\python\Semester 7\Kamsis\word_with_nlp.py", line 70, in parse
+    elif self.__is_similar_to_any_element(word, self.allbrand) != 0:
+  File "C:\Users\mmukhtar\Documents\python\Semester 7\Kamsis\word_with_nlp.py", line 42, in __is_similar_to_any_element
+    if editdistance.eval(word, l) < 2:
+AttributeError: module 'editdistance' has no attribute 'eval'
+
+2020-12-30 17:50:35,914 - ERROR - url_rules.main() Error : Traceback (most recent call last):
+  File "C:\Users\mmukhtar\Documents\python\Semester 7\Kamsis\url_rules.py", line 68, in rules_main
+    result_nlp = self.nlp_features(words_raw)
+  File "C:\Users\mmukhtar\Documents\python\Semester 7\Kamsis\url_rules.py", line 296, in nlp_features
+    grouped_words = self.nlp_manager.parse(words_raw)
+  File "C:\Users\mmukhtar\Documents\python\Semester 7\Kamsis\word_with_nlp.py", line 95, in parse
+    return result
+UnboundLocalError: local variable 'result' referenced before assignment
+
+2020-12-30 17:50:35,914 - ERROR - url_rules.main() Error : Traceback (most recent call last):
+  File "C:\Users\mmukhtar\Documents\python\Semester 7\Kamsis\url_rules.py", line 68, in rules_main
+    result_nlp = self.nlp_features(words_raw)
+  File "C:\Users\mmukhtar\Documents\python\Semester 7\Kamsis\url_rules.py", line 296, in nlp_features
+    grouped_words = self.nlp_manager.parse(words_raw)
+  File "C:\Users\mmukhtar\Documents\python\Semester 7\Kamsis\word_with_nlp.py", line 95, in parse
+    return result
+UnboundLocalError: local variable 'result' referenced before assignment
+
+2020-12-30 17:50:35,947 - ERROR - Error : Traceback (most recent call last):
+  File "C:\Users\mmukhtar\Documents\python\Semester 7\Kamsis\word_with_nlp.py", line 70, in parse
+    elif self.__is_similar_to_any_element(word, self.allbrand) != 0:
+  File "C:\Users\mmukhtar\Documents\python\Semester 7\Kamsis\word_with_nlp.py", line 42, in __is_similar_to_any_element
+    if editdistance.eval(word, l) < 2:
+AttributeError: module 'editdistance' has no attribute 'eval'
+
+2020-12-30 17:50:35,947 - ERROR - Error : Traceback (most recent call last):
+  File "C:\Users\mmukhtar\Documents\python\Semester 7\Kamsis\word_with_nlp.py", line 70, in parse
+    elif self.__is_similar_to_any_element(word, self.allbrand) != 0:
+  File "C:\Users\mmukhtar\Documents\python\Semester 7\Kamsis\word_with_nlp.py", line 42, in __is_similar_to_any_element
+    if editdistance.eval(word, l) < 2:
+AttributeError: module 'editdistance' has no attribute 'eval'
+
+2020-12-30 17:50:35,950 - ERROR - url_rules.main() Error : Traceback (most recent call last):
+  File "C:\Users\mmukhtar\Documents\python\Semester 7\Kamsis\url_rules.py", line 68, in rules_main
+    result_nlp = self.nlp_features(words_raw)
+  File "C:\Users\mmukhtar\Documents\python\Semester 7\Kamsis\url_rules.py", line 296, in nlp_features
+    grouped_words = self.nlp_manager.parse(words_raw)
+  File "C:\Users\mmukhtar\Documents\python\Semester 7\Kamsis\word_with_nlp.py", line 95, in parse
+    return result
+UnboundLocalError: local variable 'result' referenced before assignment
+
+2020-12-30 17:50:35,950 - ERROR - url_rules.main() Error : Traceback (most recent call last):
+  File "C:\Users\mmukhtar\Documents\python\Semester 7\Kamsis\url_rules.py", line 68, in rules_main
+    result_nlp = self.nlp_features(words_raw)
+  File "C:\Users\mmukhtar\Documents\python\Semester 7\Kamsis\url_rules.py", line 296, in nlp_features
+    grouped_words = self.nlp_manager.parse(words_raw)
+  File "C:\Users\mmukhtar\Documents\python\Semester 7\Kamsis\word_with_nlp.py", line 95, in parse
+    return result
+UnboundLocalError: local variable 'result' referenced before assignment
+
+2020-12-30 17:50:35,983 - ERROR - Error : Traceback (most recent call last):
+  File "C:\Users\mmukhtar\Documents\python\Semester 7\Kamsis\word_with_nlp.py", line 70, in parse
+    elif self.__is_similar_to_any_element(word, self.allbrand) != 0:
+  File "C:\Users\mmukhtar\Documents\python\Semester 7\Kamsis\word_with_nlp.py", line 42, in __is_similar_to_any_element
+    if editdistance.eval(word, l) < 2:
+AttributeError: module 'editdistance' has no attribute 'eval'
+
+2020-12-30 17:50:35,983 - ERROR - Error : Traceback (most recent call last):
+  File "C:\Users\mmukhtar\Documents\python\Semester 7\Kamsis\word_with_nlp.py", line 70, in parse
+    elif self.__is_similar_to_any_element(word, self.allbrand) != 0:
+  File "C:\Users\mmukhtar\Documents\python\Semester 7\Kamsis\word_with_nlp.py", line 42, in __is_similar_to_any_element
+    if editdistance.eval(word, l) < 2:
+AttributeError: module 'editdistance' has no attribute 'eval'
+
+2020-12-30 17:50:35,986 - ERROR - url_rules.main() Error : Traceback (most recent call last):
+  File "C:\Users\mmukhtar\Documents\python\Semester 7\Kamsis\url_rules.py", line 68, in rules_main
+    result_nlp = self.nlp_features(words_raw)
+  File "C:\Users\mmukhtar\Documents\python\Semester 7\Kamsis\url_rules.py", line 296, in nlp_features
+    grouped_words = self.nlp_manager.parse(words_raw)
+  File "C:\Users\mmukhtar\Documents\python\Semester 7\Kamsis\word_with_nlp.py", line 95, in parse
+    return result
+UnboundLocalError: local variable 'result' referenced before assignment
+
+2020-12-30 17:50:35,986 - ERROR - url_rules.main() Error : Traceback (most recent call last):
+  File "C:\Users\mmukhtar\Documents\python\Semester 7\Kamsis\url_rules.py", line 68, in rules_main
+    result_nlp = self.nlp_features(words_raw)
+  File "C:\Users\mmukhtar\Documents\python\Semester 7\Kamsis\url_rules.py", line 296, in nlp_features
+    grouped_words = self.nlp_manager.parse(words_raw)
+  File "C:\Users\mmukhtar\Documents\python\Semester 7\Kamsis\word_with_nlp.py", line 95, in parse
+    return result
+UnboundLocalError: local variable 'result' referenced before assignment
+
+2020-12-30 17:52:33,617 - INFO - rule_extraction.extraction() is running
+2020-12-30 17:52:33,617 - INFO - rule_extraction.extraction() is running
+2020-12-30 17:53:09,219 - INFO - rule_extraction.extraction() is running
+2020-12-30 17:53:09,219 - INFO - rule_extraction.extraction() is running
+2020-12-30 17:54:41,398 - INFO - rule_extraction.extraction() is running
+2020-12-30 17:54:41,398 - INFO - rule_extraction.extraction() is running
